@@ -787,7 +787,8 @@ function renderCISODashboard() {
   const topApps = mockData.applications.slice(0, 5);
 
   const totalApps = mockData.applications.length;
-  const criticalApps = mockData.applications.filter(a => a.status === 'critical').length;
+  const totalVulnerabilities = mockData.issues.length;
+  const appsWithIssues = mockData.applications.filter(a => (a.critical + a.high + a.medium + a.low) > 0).length;
   const avgCompliance = Math.round(mockData.applications.reduce((acc, a) => acc + a.compliance, 0) / totalApps);
 
   const openBySeverity = [
@@ -817,28 +818,28 @@ function renderCISODashboard() {
           ${icons.layers} Total Applications
         </div>
         <div class="text-3xl font-bold text-gray-900 mb-1">${totalApps}</div>
-        <div class="text-xs text-success font-medium flex items-center gap-1">${icons.arrowUp} 2 added this quarter</div>
+        <div class="text-xs text-success font-medium flex items-center gap-1">${icons.arrowUp} 2 added recently</div>
       </div>
       <div class="card p-6 flex flex-col justify-between">
         <div class="flex items-center gap-2 text-xs font-bold text-muted uppercase tracking-wider mb-4">
-          ${icons.shieldAlert} Critical Apps
+          ${icons.alertTriangle} Issues in Apps
         </div>
-        <div class="text-3xl font-bold text-critical mb-1">${criticalApps}</div>
-        <div class="text-xs text-muted font-medium">Needs immediate review</div>
+        <div class="text-3xl font-bold text-critical mb-1">${appsWithIssues}</div>
+        <div class="text-xs text-muted font-medium">Applications with findings</div>
       </div>
       <div class="card p-6 flex flex-col justify-between">
         <div class="flex items-center gap-2 text-xs font-bold text-muted uppercase tracking-wider mb-4">
-          ${icons.target} Avg Security Score
+          ${icons.shieldAlert} Total Vulnerabilities
         </div>
-        <div class="text-3xl font-bold text-gray-900 mb-1">81<span class="text-lg text-muted">/100</span></div>
-        <div class="text-xs text-success font-medium flex items-center gap-1">${icons.arrowUp} 5 pts improvement</div>
+        <div class="text-3xl font-bold text-gray-900 mb-1">${totalVulnerabilities}</div>
+        <div class="text-xs text-muted font-medium">Aggregated security debt</div>
       </div>
       <div class="card p-6 flex flex-col justify-between">
         <div class="flex items-center gap-2 text-xs font-bold text-muted uppercase tracking-wider mb-4">
           ${icons.checkCircle} Avg Compliance
         </div>
         <div class="text-3xl font-bold text-gray-900 mb-1">${avgCompliance}%</div>
-        <div class="text-xs text-success font-medium flex items-center gap-1">${icons.arrowUp} 3% from last scan</div>
+        <div class="text-xs text-success font-medium flex items-center gap-1">${icons.arrowUp} 3% improvement</div>
       </div>
     </div>
 
