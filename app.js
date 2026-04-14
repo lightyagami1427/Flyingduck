@@ -225,6 +225,7 @@ function setRole(role) {
   localStorage.setItem('fd-role', role);
   const defaults = { ciso: 'dashboard', security: 'dashboard', developer: 'dashboard' };
   navigateTo(defaults[role]);
+  render(); // Force render to refresh role-specific content
 }
 
 // ========== ROUTING ==========
