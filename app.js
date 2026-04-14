@@ -41,40 +41,42 @@ const icons = {
   target: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>`,
   shieldAlert: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>`,
   gitMerge: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M6 21V9a9 9 0 0 0 9 9"/></svg>`,
-  settings: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>`,
+  settings: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1-2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>`,
   helpCircle: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`,
   calendar: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>`,
   globe: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>`,
+  plus: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>`,
 };
+
 
 // ========== MOCK DATA ==========
 const mockData = {
   // Applications
   applications: [
-    { id: 'app-1', name: 'Payment Gateway', team: 'Payments', riskScore: 92, critical: 12, high: 23, medium: 45, low: 31, lastScan: '2h ago', owner: 'Sarah Chen', status: 'critical', language: 'Java', repos: 4, compliance: 67 },
-    { id: 'app-2', name: 'User Auth Service', team: 'Platform', riskScore: 85, critical: 8, high: 19, medium: 34, low: 22, lastScan: '4h ago', owner: 'Mike Torres', status: 'critical', language: 'Go', repos: 2, compliance: 72 },
-    { id: 'app-3', name: 'Customer Portal', team: 'Frontend', riskScore: 71, critical: 3, high: 15, medium: 28, low: 44, lastScan: '1h ago', owner: 'Emma Wilson', status: 'high', language: 'TypeScript', repos: 3, compliance: 81 },
-    { id: 'app-4', name: 'Data Pipeline', team: 'Data Eng', riskScore: 64, critical: 2, high: 11, medium: 22, low: 38, lastScan: '6h ago', owner: 'David Kim', status: 'high', language: 'Python', repos: 5, compliance: 78 },
-    { id: 'app-5', name: 'Internal Admin', team: 'Internal Tools', riskScore: 45, critical: 0, high: 5, medium: 18, low: 29, lastScan: '30m ago', owner: 'Lisa Park', status: 'medium', language: 'Ruby', repos: 1, compliance: 91 },
-    { id: 'app-6', name: 'Mobile API', team: 'Mobile', riskScore: 58, critical: 1, high: 9, medium: 25, low: 33, lastScan: '3h ago', owner: 'James Liu', status: 'high', language: 'Node.js', repos: 2, compliance: 85 },
-    { id: 'app-7', name: 'Analytics Engine', team: 'Data Eng', riskScore: 38, critical: 0, high: 3, medium: 14, low: 21, lastScan: '12h ago', owner: 'Ana Patel', status: 'medium', language: 'Scala', repos: 3, compliance: 93 },
-    { id: 'app-8', name: 'Notification Service', team: 'Platform', riskScore: 29, critical: 0, high: 1, medium: 8, low: 15, lastScan: '1h ago', owner: 'Tom Brown', status: 'low', language: 'Go', repos: 1, compliance: 96 },
+    { id: 'app-1', name: 'Global Checkout', team: 'Payments', riskScore: 92, critical: 12, high: 23, medium: 45, low: 31, lastScan: '2h ago', owner: 'Sarah Chen', status: 'critical', language: 'Java', repos: 4, compliance: 67 },
+    { id: 'app-2', name: 'Sentinel Identity', team: 'Platform', riskScore: 85, critical: 8, high: 19, medium: 34, low: 22, lastScan: '4h ago', owner: 'Mike Torres', status: 'critical', language: 'Go', repos: 2, compliance: 72 },
+    { id: 'app-3', name: 'Frontline CRM', team: 'Frontend', riskScore: 71, critical: 3, high: 15, medium: 28, low: 44, lastScan: '1h ago', owner: 'Emma Wilson', status: 'high', language: 'TypeScript', repos: 3, compliance: 81 },
+    { id: 'app-4', name: 'Nexus Data Bus', team: 'Data Eng', riskScore: 64, critical: 2, high: 11, medium: 22, low: 38, lastScan: '6h ago', owner: 'David Kim', status: 'high', language: 'Python', repos: 5, compliance: 78 },
+    { id: 'app-5', name: 'Legacy Admin Terminal', team: 'Internal Tools', riskScore: 45, critical: 0, high: 5, medium: 18, low: 29, lastScan: '30m ago', owner: 'Lisa Park', status: 'medium', language: 'Ruby', repos: 1, compliance: 91 },
+    { id: 'app-6', name: 'Mobile Gateway API', team: 'Mobile', riskScore: 58, critical: 1, high: 9, medium: 25, low: 33, lastScan: '3h ago', owner: 'James Liu', status: 'high', language: 'Node.js', repos: 2, compliance: 85 },
+    { id: 'app-7', name: 'Zenith Analytics', team: 'Data Eng', riskScore: 38, critical: 0, high: 3, medium: 14, low: 21, lastScan: '12h ago', owner: 'Ana Patel', status: 'medium', language: 'Scala', repos: 3, compliance: 93 },
+    { id: 'app-8', name: 'NotifyCore', team: 'Platform', riskScore: 29, critical: 0, high: 1, medium: 8, low: 15, lastScan: '1h ago', owner: 'Tom Brown', status: 'low', language: 'Go', repos: 1, compliance: 96 },
   ],
 
   // Issues
   issues: [
-    { id: 'ISS-4521', title: 'SQL Injection in user search endpoint', severity: 'critical', status: 'open', app: 'Payment Gateway', file: 'src/controllers/UserController.java', line: 142, assignee: 'Sarah Chen', age: '3d', source: 'SAST', cwe: 'CWE-89', repo: 'payment-gateway-api' },
-    { id: 'ISS-4518', title: 'Hardcoded AWS credentials in config', severity: 'critical', status: 'open', app: 'User Auth Service', file: 'src/config/aws.go', line: 23, assignee: 'Mike Torres', age: '5d', source: 'Secret Scan', cwe: 'CWE-798', repo: 'auth-service' },
-    { id: 'ISS-4515', title: 'XSS vulnerability in comment rendering', severity: 'critical', status: 'in-progress', app: 'Customer Portal', file: 'src/components/Comment.tsx', line: 67, assignee: 'Emma Wilson', age: '2d', source: 'SAST', cwe: 'CWE-79', repo: 'customer-portal' },
-    { id: 'ISS-4510', title: 'Path traversal in file upload handler', severity: 'high', status: 'open', app: 'Payment Gateway', file: 'src/handlers/FileUpload.java', line: 89, assignee: null, age: '7d', source: 'SAST', cwe: 'CWE-22', repo: 'payment-gateway-api' },
-    { id: 'ISS-4508', title: 'Insecure deserialization in message queue', severity: 'high', status: 'open', app: 'Data Pipeline', file: 'src/workers/MessageProcessor.py', line: 156, assignee: 'David Kim', age: '4d', source: 'SAST', cwe: 'CWE-502', repo: 'data-pipeline' },
-    { id: 'ISS-4505', title: 'Missing rate limiting on login endpoint', severity: 'high', status: 'in-progress', app: 'User Auth Service', file: 'src/routes/auth.go', line: 34, assignee: 'Mike Torres', age: '6d', source: 'DAST', cwe: 'CWE-307', repo: 'auth-service' },
-    { id: 'ISS-4502', title: 'Outdated dependency with known RCE', severity: 'high', status: 'open', app: 'Mobile API', file: 'package.json', line: 15, assignee: 'James Liu', age: '8d', source: 'SCA', cwe: 'CWE-1395', repo: 'mobile-api' },
-    { id: 'ISS-4498', title: 'CSRF token not validated on form submit', severity: 'medium', status: 'open', app: 'Customer Portal', file: 'src/pages/Settings.tsx', line: 203, assignee: null, age: '10d', source: 'DAST', cwe: 'CWE-352', repo: 'customer-portal' },
-    { id: 'ISS-4495', title: 'Verbose error messages expose stack trace', severity: 'medium', status: 'open', app: 'Payment Gateway', file: 'src/middleware/ErrorHandler.java', line: 45, assignee: 'Sarah Chen', age: '12d', source: 'DAST', cwe: 'CWE-209', repo: 'payment-gateway-api' },
-    { id: 'ISS-4490', title: 'Weak password policy configuration', severity: 'medium', status: 'resolved', app: 'User Auth Service', file: 'src/config/security.go', line: 12, assignee: 'Mike Torres', age: '15d', source: 'Config', cwe: 'CWE-521', repo: 'auth-service' },
-    { id: 'ISS-4485', title: 'Missing Content-Security-Policy header', severity: 'medium', status: 'open', app: 'Customer Portal', file: 'src/middleware/headers.ts', line: 8, assignee: 'Emma Wilson', age: '14d', source: 'DAST', cwe: 'CWE-1021', repo: 'customer-portal' },
-    { id: 'ISS-4480', title: 'Deprecated TLS 1.0 still enabled', severity: 'low', status: 'open', app: 'Internal Admin', file: 'config/nginx.conf', line: 22, assignee: null, age: '20d', source: 'Config', cwe: 'CWE-326', repo: 'internal-admin' },
+    { id: 'ISS-4521', title: 'SQL Injection in user search endpoint', severity: 'critical', status: 'open', app: 'Global Checkout', file: 'src/controllers/UserController.java', line: 142, assignee: 'Sarah Chen', age: '3d', source: 'SAST', cwe: 'CWE-89', repo: 'payment-gateway-api' },
+    { id: 'ISS-4518', title: 'Hardcoded AWS credentials in config', severity: 'critical', status: 'open', app: 'Sentinel Identity', file: 'src/config/aws.go', line: 23, assignee: 'Mike Torres', age: '5d', source: 'Secret Scan', cwe: 'CWE-798', repo: 'auth-service' },
+    { id: 'ISS-4515', title: 'XSS vulnerability in comment rendering', severity: 'critical', status: 'in-progress', app: 'Frontline CRM', file: 'src/components/Comment.tsx', line: 67, assignee: 'Emma Wilson', age: '2d', source: 'SAST', cwe: 'CWE-79', repo: 'customer-portal' },
+    { id: 'ISS-4510', title: 'Path traversal in file upload handler', severity: 'high', status: 'open', app: 'Global Checkout', file: 'src/handlers/FileUpload.java', line: 89, assignee: null, age: '7d', source: 'SAST', cwe: 'CWE-22', repo: 'payment-gateway-api' },
+    { id: 'ISS-4508', title: 'Insecure deserialization in message queue', severity: 'high', status: 'open', app: 'Nexus Data Bus', file: 'src/workers/MessageProcessor.py', line: 156, assignee: 'David Kim', age: '4d', source: 'SAST', cwe: 'CWE-502', repo: 'data-pipeline' },
+    { id: 'ISS-4505', title: 'Missing rate limiting on login endpoint', severity: 'high', status: 'in-progress', app: 'Sentinel Identity', file: 'src/routes/auth.go', line: 34, assignee: 'Mike Torres', age: '6d', source: 'DAST', cwe: 'CWE-307', repo: 'auth-service' },
+    { id: 'ISS-4502', title: 'Outdated dependency with known RCE', severity: 'high', status: 'open', app: 'Mobile Gateway API', file: 'package.json', line: 15, assignee: 'James Liu', age: '8d', source: 'SCA', cwe: 'CWE-1395', repo: 'mobile-api' },
+    { id: 'ISS-4498', title: 'CSRF token not validated on form submit', severity: 'medium', status: 'open', app: 'Frontline CRM', file: 'src/pages/Settings.tsx', line: 203, assignee: null, age: '10d', source: 'DAST', cwe: 'CWE-352', repo: 'customer-portal' },
+    { id: 'ISS-4495', title: 'Verbose error messages expose stack trace', severity: 'medium', status: 'open', app: 'Global Checkout', file: 'src/middleware/ErrorHandler.java', line: 45, assignee: 'Sarah Chen', age: '12d', source: 'DAST', cwe: 'CWE-209', repo: 'payment-gateway-api' },
+    { id: 'ISS-4490', title: 'Weak password policy configuration', severity: 'medium', status: 'resolved', app: 'Sentinel Identity', file: 'src/config/security.go', line: 12, assignee: 'Mike Torres', age: '15d', source: 'Config', cwe: 'CWE-521', repo: 'auth-service' },
+    { id: 'ISS-4485', title: 'Missing Content-Security-Policy header', severity: 'medium', status: 'open', app: 'Frontline CRM', file: 'src/middleware/headers.ts', line: 8, assignee: 'Emma Wilson', age: '14d', source: 'DAST', cwe: 'CWE-1021', repo: 'customer-portal' },
+    { id: 'ISS-4480', title: 'Deprecated TLS 1.0 still enabled', severity: 'low', status: 'open', app: 'Legacy Admin Terminal', file: 'config/nginx.conf', line: 22, assignee: null, age: '20d', source: 'Config', cwe: 'CWE-326', repo: 'internal-admin' },
   ],
 
   // Pull Requests
@@ -89,12 +91,52 @@ const mockData = {
 
   // Repositories (Developer)
   repositories: [
-    { id: 'repo-1', name: 'payment-gateway-api', language: 'Java', health: 'critical', openIssues: 14, lastScan: '2h ago', branch: 'main', coverage: 72, stars: 24 },
-    { id: 'repo-2', name: 'auth-service', language: 'Go', health: 'high', openIssues: 8, lastScan: '4h ago', branch: 'main', coverage: 84, stars: 18 },
-    { id: 'repo-3', name: 'customer-portal', language: 'TypeScript', health: 'medium', openIssues: 5, lastScan: '1h ago', branch: 'develop', coverage: 78, stars: 31 },
-    { id: 'repo-4', name: 'mobile-api', language: 'Node.js', health: 'medium', openIssues: 3, lastScan: '3h ago', branch: 'main', coverage: 69, stars: 12 },
-    { id: 'repo-5', name: 'data-pipeline', language: 'Python', health: 'high', openIssues: 6, lastScan: '6h ago', branch: 'main', coverage: 61, stars: 8 },
-    { id: 'repo-6', name: 'internal-admin', language: 'Ruby', health: 'low', openIssues: 1, lastScan: '30m ago', branch: 'main', coverage: 88, stars: 5 },
+    { 
+      id: 'repo-1', name: 'payment-gateway-api', language: 'Java', health: 'critical', openIssues: 14, lastScan: '2h ago', branch: 'main', lastCommit: '45m ago', coverage: 72, stars: 24, riskScore: 84, owner: 'Fintech Core',
+      branches: [
+        { name: 'main', issues: ['ISS-4521', 'ISS-4495'], pullRequests: ['PR-891', 'PR-881'] },
+        { name: 'develop', issues: ['ISS-4510'], pullRequests: [] },
+        { name: 'hotfix/patch-v1', issues: [], pullRequests: [] }
+      ]
+    },
+    { 
+      id: 'repo-2', name: 'auth-service', language: 'Go', health: 'high', openIssues: 8, lastScan: '4h ago', branch: 'main', lastCommit: '2h ago', coverage: 84, stars: 18, riskScore: 62, owner: 'Sentinel Identity',
+      branches: [
+        { name: 'main', issues: ['ISS-4518', 'ISS-4490'], pullRequests: ['PR-889'] },
+        { name: 'staging', issues: ['ISS-4505'], pullRequests: ['PR-883'] }
+      ]
+    },
+    { 
+      id: 'repo-3', name: 'customer-portal', language: 'TypeScript', health: 'medium', openIssues: 5, lastScan: '1h ago', branch: 'develop', lastCommit: '1d ago', coverage: 78, stars: 31, riskScore: 45, owner: 'CX Experience',
+      branches: [
+        { name: 'main', issues: [], pullRequests: [] },
+        { name: 'develop', issues: ['ISS-4515', 'ISS-4498', 'ISS-4485'], pullRequests: ['PR-887'] }
+      ]
+    },
+    { 
+      id: 'repo-4', name: 'mobile-api', language: 'Node.js', health: 'medium', openIssues: 3, lastScan: '3h ago', branch: 'main', lastCommit: '3h ago', coverage: 69, stars: 12, riskScore: 38, owner: 'Mobile Core',
+      branches: [
+        { name: 'main', issues: ['ISS-4502'], pullRequests: ['PR-885'] },
+        { name: 'release/v2.1', issues: [], pullRequests: [] }
+      ]
+    },
+    { 
+      id: 'repo-5', name: 'data-pipeline', language: 'Python', health: 'high', openIssues: 6, lastScan: '6h ago', branch: 'main', lastCommit: '5h ago', coverage: 61, stars: 8, riskScore: 71, owner: 'Nexus Analytics',
+      branches: [
+        { name: 'main', issues: ['ISS-4508'], pullRequests: [] },
+        { name: 'experimental/v3', issues: [], pullRequests: [] }
+      ]
+    },
+    { 
+      id: 'repo-6', name: 'internal-admin', language: 'Ruby', health: 'low', openIssues: 1, lastScan: '30m ago', branch: 'main', lastCommit: '15m ago', coverage: 88, stars: 5, riskScore: 12, owner: 'Identity Ops',
+      branches: [
+        { name: 'main', issues: ['ISS-4480'], pullRequests: [] }
+      ]
+    },
+    { id: 'repo-7', name: 'payment-gateway-worker', language: 'Java', health: 'success', openIssues: 0, lastScan: '5h ago', branch: 'main', lastCommit: '1d ago', coverage: 94, stars: 8, riskScore: 12, branches: [{name: 'main', issues: [], pullRequests: []}] },
+    { id: 'repo-8', name: 'payment-sdk', language: 'TypeScript', health: 'success', openIssues: 0, lastScan: '1d ago', branch: 'main', lastCommit: '2d ago', coverage: 91, stars: 45, riskScore: 8, branches: [{name: 'main', issues: [], pullRequests: []}] },
+    { id: 'repo-9', name: 'payment-ui', language: 'TypeScript', health: 'medium', openIssues: 3, lastScan: '2h ago', branch: 'main', lastCommit: '1h ago', coverage: 65, stars: 121, riskScore: 42, branches: [{name: 'main', issues: [], pullRequests: []}] },
+    { id: 'repo-10', name: 'auth-ui', language: 'TypeScript', health: 'success', openIssues: 0, lastScan: '3h ago', branch: 'main', lastCommit: '4h ago', coverage: 88, stars: 15, riskScore: 15, branches: [{name: 'main', issues: [], pullRequests: []}] },
   ],
 
   // Dependencies (Developer)
@@ -157,39 +199,77 @@ const mockData = {
 
 // Map applications to their repositories for hierarchical views
 const appRepoMap = {
-  'Payment Gateway': ['payment-gateway-api'],
-  'User Auth Service': ['auth-service'],
-  'Customer Portal': ['customer-portal'],
-  'Data Pipeline': ['data-pipeline'],
-  'Internal Admin': ['internal-admin'],
-  'Mobile API': ['mobile-api'],
-  'Analytics Engine': ['data-pipeline'], // Multi-mapping example
-  'Notification Service': ['auth-service']
+  'Global Checkout': ['payment-gateway-api', 'payment-gateway-worker', 'payment-sdk', 'payment-ui'],
+  'Sentinel Identity': ['auth-service', 'auth-ui'],
+  'Frontline CRM': ['customer-portal', 'customer-api', 'customer-widgets'],
+  'Nexus Data Bus': ['data-pipeline', 'data-ingestion', 'data-transform', 'data-export', 'data-scheduler'],
+  'Legacy Admin Terminal': ['internal-admin'],
+  'Mobile Gateway API': ['mobile-api', 'mobile-gateway'],
+  'Zenith Analytics': ['analytics-engine', 'analytics-dashboard', 'analytics-worker'],
+  'NotifyCore': ['notification-service'],
 };
 
 // ========== STATE MANAGEMENT ==========
 const state = {
-  role: localStorage.getItem('fd-role') || 'ciso',
+  role: localStorage.getItem('fd-role') || 'security',
   currentPage: '',
+  params: {},
+  history: [],
   roleDropdownOpen: false,
 };
 
 function setRole(role) {
   state.role = role;
   state.roleDropdownOpen = false;
+  state.history = []; // Reset history on role change
   localStorage.setItem('fd-role', role);
   const defaults = { ciso: 'dashboard', security: 'dashboard', developer: 'dashboard' };
   navigateTo(defaults[role]);
 }
 
 // ========== ROUTING ==========
-function navigateTo(page, params = {}) {
+function navigateTo(page, params = {}, replaceHistory = false) {
+  // Prevent duplicate navigation history
+  const isSamePage = state.currentPage === page;
+  const isSameParams = JSON.stringify(state.params) === JSON.stringify(params);
+  
+  if (isSamePage && isSameParams) return;
+
+  // Push current state to history before navigating
+  if (!replaceHistory && state.currentPage) {
+    state.history.push({ 
+      page: state.currentPage, 
+      params: JSON.parse(JSON.stringify(state.params)) // Deep copy
+    });
+    
+    // Cap history at 20 items to prevent memory leaks
+    if (state.history.length > 20) state.history.shift();
+  }
+  
   state.currentPage = page;
   state.params = params;
   render();
-  // Scroll content to top
+  
   const content = document.querySelector('.content');
   if (content) content.scrollTop = 0;
+}
+
+function goBack() {
+  if (state.history.length > 0) {
+    const prev = state.history.pop();
+    state.currentPage = prev.page;
+    state.params = prev.params;
+    render();
+    
+    const content = document.querySelector('.content');
+    if (content) content.scrollTop = 0;
+  } else {
+    // If no history, navigate to the role's default dashboard
+    const defaults = { ciso: 'dashboard', security: 'dashboard', developer: 'dashboard' };
+    state.currentPage = defaults[state.role] || 'dashboard';
+    state.params = {};
+    render();
+  }
 }
 
 // ========== RENDER ENGINE ==========
@@ -204,7 +284,6 @@ function render() {
       </div>
     </div>
   `;
-  bindEvents();
 }
 
 // ========== SIDEBAR ==========
@@ -289,9 +368,9 @@ function renderSidebar() {
 // ========== TOPBAR ==========
 function getRoleMeta(role) {
   const meta = {
-    ciso: { label: 'CISO', desc: 'Strategic View', color: '#7C3AED', initials: 'C' },
-    security: { label: 'Security Team', desc: 'Operational View', color: '#0891B2', initials: 'ST' },
-    developer: { label: 'Developer', desc: 'Execution View', color: '#059669', initials: 'D' },
+    ciso: { label: 'CISO', desc: 'Strategic View', color: 'var(--primary)', initials: 'C' },
+    security: { label: 'Security Team', desc: 'Operational View', color: 'var(--high)', initials: 'ST' },
+    developer: { label: 'Developer', desc: 'Execution View', color: 'var(--success)', initials: 'D' },
   };
   return meta[role];
 }
@@ -346,12 +425,12 @@ function renderTopbar() {
         <div class="topbar-search">
           <span class="search-icon">${icons.search}</span>
           <input type="text" placeholder="Search issues, apps…" id="global-search" />
-          <span class="search-shortcut">⌘K</span>
+          <div class="search-shortcut">⌘K</div>
         </div>
         <div class="role-switcher">
           <button class="role-switcher-btn ${state.roleDropdownOpen ? 'open' : ''}" id="role-switcher-btn">
             <div class="role-avatar" style="background: ${roleMeta.color}">${roleMeta.initials}</div>
-            <span>${roleMeta.label}</span>
+            <span class="font-medium">${roleMeta.label}</span>
             <span class="chevron">${icons.chevronDown}</span>
           </button>
           <div class="role-dropdown ${state.roleDropdownOpen ? 'open' : ''}" id="role-dropdown">
@@ -390,6 +469,7 @@ function renderPage() {
       case 'dashboard': return renderCISODashboard();
       case 'applications': return renderCISOApplications();
       case 'application-detail': return renderCISOAppDetail();
+      case 'repository-detail': return renderRepoDetail();
       case 'compliance': return renderCompliance();
       case 'trends': return renderTrends();
       case 'reports': return renderReports();
@@ -402,6 +482,7 @@ function renderPage() {
       case 'issue-detail': return renderSecurityIssueDetail();
       case 'applications': return renderSecurityApplications();
       case 'application-detail': return renderSecurityAppDetail();
+      case 'repository-detail': return renderRepoDetail();
       case 'pull-requests': return renderSecurityPRs();
       case 'pr-detail': return renderSecurityPRDetail();
       case 'security-advisor': return renderSecurityAdvisor();
@@ -412,7 +493,7 @@ function renderPage() {
     switch (page) {
       case 'dashboard': return renderDevDashboard();
       case 'repositories': return renderDevRepositories();
-      case 'repository-detail': return renderDevRepoDetail();
+      case 'repository-detail': return renderRepoDetail();
       case 'issues': return renderDevIssues();
       case 'issue-detail': return renderDevIssueDetail();
       case 'pull-requests': return renderDevPRs();
@@ -427,6 +508,52 @@ function renderPage() {
 // ========== HELPER FUNCTIONS ==========
 function severityBadge(severity) {
   return `<span class="badge badge-${severity}">${severity.charAt(0).toUpperCase() + severity.slice(1)}</span>`;
+}
+
+function renderRepoRow(repoName, appName) {
+  const repoObj = mockData.repositories.find(r => r.name === repoName) || { language: 'N/A', health: 'medium', openIssues: 0, lastScan: 'N/A', branch: 'main', lastCommit: 'N/A', riskScore: 0 };
+  const repoIssues = mockData.issues.filter(i => i.app === appName && i.repo === repoName).length;
+  const isCISO = state.role === 'ciso';
+
+  return `
+    <div class="repo-card-lite ${isCISO ? '' : 'clickable'}" 
+         ${isCISO ? '' : `data-nav="repository-detail" data-id="${repoObj.id || ''}" data-repo="${repoName}"`}
+         style="display: grid; grid-template-columns: 1.5fr 1fr 1.5fr 40px; align-items: center; padding: 16px 20px; background: white; border: 1px solid var(--border-light); border-radius: 12px; margin-bottom: 12px; transition: all 0.2s; box-shadow: var(--shadow-sm); ${isCISO ? 'cursor: default;' : 'cursor: pointer;'}">
+      
+      <div class="flex items-center gap-3">
+        <div class="repo-icon-wrapper" style="width:32px; height:32px; display:flex; align-items:center; justify-content:center; background:var(--gray-50); border-radius:var(--radius-md); color:var(--primary)">
+          ${icons.gitRepo}
+        </div>
+        <div>
+          <div class="repo-name-text" style="font-weight:700; color:var(--gray-900)">${repoName}</div>
+          <div class="text-xs text-muted">${repoObj.language} · ${repoObj.branch}</div>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <span class="status-dot ${repoObj.health}"></span>
+        <span class="text-xs font-bold uppercase" style="color:var(--${repoObj.health})">${repoObj.health} Health</span>
+      </div>
+
+      <div class="flex items-center gap-6">
+        <div>
+          <div class="text-xs text-muted mb-1">Security Health</div>
+          <div class="flex items-center gap-2">
+            <span class="badge ${repoIssues > 5 ? 'badge-critical' : repoIssues > 0 ? 'badge-warning' : 'badge-success'}">${repoIssues} Issues</span>
+            <span class="text-xs font-bold">${repoObj.riskScore}<small class="text-muted">/100</small></span>
+          </div>
+        </div>
+        <div class="border-l pl-6" style="border-color:var(--border-light)">
+          <div class="text-xs text-muted">Last Scanned</div>
+          <div class="text-xs font-bold mt-1">${repoObj.lastScan}</div>
+        </div>
+      </div>
+
+      <div class="flex justify-end">
+        ${isCISO ? '' : `<span style="color:var(--gray-300)">${icons.chevronRight}</span>`}
+      </div>
+    </div>
+  `;
 }
 
 function statusBadge(status) {
@@ -453,14 +580,16 @@ function riskBadge(level) {
   return `<span class="badge badge-${map[level] || 'info'}">${level.charAt(0).toUpperCase() + level.slice(1)}</span>`;
 }
 
-function miniSeverityBar(c, h, m, l) {
-  const total = c + h + m + l || 1;
-  return `<div class="severity-bar" style="width:100px">
-    ${c ? `<div style="width:${(c/total)*100}%;background:var(--critical)"></div>` : ''}
-    ${h ? `<div style="width:${(h/total)*100}%;background:var(--high)"></div>` : ''}
-    ${m ? `<div style="width:${(m/total)*100}%;background:var(--medium)"></div>` : ''}
-    ${l ? `<div style="width:${(l/total)*100}%;background:var(--low)"></div>` : ''}
-  </div>`;
+function miniSeverityBar(c, h, m, l, showLabel = false) {
+  return `
+    <div class="flex items-center gap-severity">
+      ${showLabel ? `<span class="text-xs font-bold text-critical uppercase tracking-tight mr-1">Critical</span>` : ''}
+      <div class="flex items-center gap-dot"><span class="status-dot critical" style="width:8px;height:8px"></span><span class="text-xs font-bold text-gray-900">${c}</span></div>
+      <div class="flex items-center gap-dot"><span class="status-dot high" style="width:8px;height:8px"></span><span class="text-xs font-bold text-gray-900">${h}</span></div>
+      <div class="flex items-center gap-dot"><span class="status-dot medium" style="width:8px;height:8px"></span><span class="text-xs font-bold text-gray-900">${m}</span></div>
+      <div class="flex items-center gap-dot"><span class="status-dot low" style="width:8px;height:8px"></span><span class="text-xs font-bold text-gray-900">${l}</span></div>
+    </div>
+  `;
 }
 
 function makeDonut(segments, size = 140, strokeWidth = 20) {
@@ -521,17 +650,35 @@ function makeGauge(value, label, size = 120) {
   const r = (size - 16) / 2;
   const c = 2 * Math.PI * r;
   const dash = (value / 100) * c;
-  const color = value >= 80 ? 'var(--success)' : value >= 60 ? 'var(--warning)' : 'var(--critical)';
-  return `<div class="gauge-ring" style="width:${size}px;height:${size}px">
-    <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
-      <circle cx="${size/2}" cy="${size/2}" r="${r}" fill="none" stroke="var(--gray-100)" stroke-width="10"/>
-      <circle cx="${size/2}" cy="${size/2}" r="${r}" fill="none" stroke="${color}" stroke-width="10" stroke-dasharray="${dash} ${c - dash}" stroke-linecap="round"/>
-    </svg>
-    <div class="gauge-value">
-      <span>${value}%</span>
-      <span class="gauge-label">${label}</span>
-    </div>
-  </div>`;
+  
+  // Dynamic color selection for the gradient
+  const stops = value >= 80 ? ['#10B981', '#34D399'] : value >= 60 ? ['#F59E0B', '#FBBF24'] : ['#EF4444', '#F87171'];
+  const gradId = `grad-${Math.random().toString(36).substr(2, 9)}`;
+
+  return `
+    <div class="gauge-ring" style="width:${size}px;height:${size}px;position:relative;display:flex;align-items:center;justify-content:center">
+      <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" style="transform: rotate(-90deg)">
+        <defs>
+          <linearGradient id="${gradId}" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="${stops[0]}" />
+            <stop offset="100%" stop-color="${stops[1]}" />
+          </linearGradient>
+        </defs>
+        <!-- Background Track -->
+        <circle cx="${size/2}" cy="${size/2}" r="${r}" fill="none" stroke="var(--gray-100)" stroke-width="8" />
+        <!-- Progress Arc -->
+        <circle cx="${size/2}" cy="${size/2}" r="${r}" fill="none" 
+          stroke="url(#${gradId})" 
+          stroke-width="10" 
+          stroke-dasharray="${dash} ${c - dash}" 
+          stroke-linecap="round"
+          style="transition: stroke-dasharray 0.6s ease-out" />
+      </svg>
+      <div class="gauge-overlay-text">
+        <span class="gauge-overlay-value">${value}%</span>
+        <span class="gauge-overlay-label">${label}</span>
+      </div>
+    </div>`;
 }
 
 function makeMultiLineChart(datasets, height = 180, width = 500) {
@@ -638,383 +785,231 @@ function renderCISODashboard() {
 
   const topApps = mockData.applications.slice(0, 5);
 
+  const totalApps = mockData.applications.length;
+  const criticalApps = mockData.applications.filter(a => a.status === 'critical').length;
+  const avgCompliance = Math.round(mockData.applications.reduce((acc, a) => acc + a.compliance, 0) / totalApps);
+
+  const openBySeverity = [
+    { label: 'Critical', value: 26, color: 'var(--critical)' },
+    { label: 'High', value: 86, color: 'var(--high)' },
+    { label: 'Medium', value: 194, color: 'var(--medium)' },
+    { label: 'Low', value: 233, color: 'var(--low)' },
+  ];
+
   return `
     <div class="page-header">
       <div class="page-header-row">
         <div>
           <h1>Executive Dashboard</h1>
-          <p class="page-subtitle">Organization security posture overview</p>
+          <p class="page-subtitle">Strategic security posture & operational overview</p>
         </div>
         <div class="flex gap-2">
           <button class="btn btn-secondary">${icons.calendar} Last 30 days</button>
-          <button class="btn btn-primary">${icons.download} Export</button>
+          <button class="btn btn-primary">${icons.download} Export Report</button>
         </div>
       </div>
     </div>
 
-    <div class="metrics-grid" style="grid-template-columns:repeat(5,1fr)">
-      <div class="metric-card">
-        <div class="metric-label">${icons.alertTriangle} Critical Issues</div>
-        <div class="metric-value" style="color:var(--critical)">26</div>
-        <div class="metric-change up">${icons.arrowUp} 12% from last month</div>
+    <div class="grid grid-cols-4 gap-6">
+      <div class="card p-6 flex flex-col justify-between">
+        <div class="flex items-center gap-2 text-xs font-bold text-muted uppercase tracking-wider mb-4">
+          ${icons.layers} Total Applications
+        </div>
+        <div class="text-3xl font-bold text-gray-900 mb-1">${totalApps}</div>
+        <div class="text-xs text-success font-medium flex items-center gap-1">${icons.arrowUp} 2 added this quarter</div>
       </div>
-      <div class="metric-card">
-        <div class="metric-label">${icons.shield} Total Open</div>
-        <div class="metric-value">539</div>
-        <div class="metric-change down">${icons.arrowDown} 8% from last month</div>
+      <div class="card p-6 flex flex-col justify-between">
+        <div class="flex items-center gap-2 text-xs font-bold text-muted uppercase tracking-wider mb-4">
+          ${icons.shieldAlert} Critical Apps
+        </div>
+        <div class="text-3xl font-bold text-critical mb-1">${criticalApps}</div>
+        <div class="text-xs text-muted font-medium">Needs immediate review</div>
       </div>
-      <div class="metric-card">
-        <div class="metric-label">${icons.clock} Mean Time to Resolve</div>
-        <div class="metric-value">4.5d</div>
-        <div class="metric-change down">${icons.arrowDown} 18% improvement</div>
+      <div class="card p-6 flex flex-col justify-between">
+        <div class="flex items-center gap-2 text-xs font-bold text-muted uppercase tracking-wider mb-4">
+          ${icons.target} Avg Security Score
+        </div>
+        <div class="text-3xl font-bold text-gray-900 mb-1">81<span class="text-lg text-muted">/100</span></div>
+        <div class="text-xs text-success font-medium flex items-center gap-1">${icons.arrowUp} 5 pts improvement</div>
       </div>
-      <div class="metric-card">
-        <div class="metric-label">${icons.target} Security Score</div>
-        <div class="metric-value">81</div>
-        <div class="metric-change down">${icons.arrowUp} 5 pts this month</div>
-      </div>
-      <div class="metric-card">
-        <div class="metric-label">${icons.checkCircle} Compliance</div>
-        <div class="metric-value">84%</div>
-        <div class="metric-change down">${icons.arrowUp} 3% improvement</div>
+      <div class="card p-6 flex flex-col justify-between">
+        <div class="flex items-center gap-2 text-xs font-bold text-muted uppercase tracking-wider mb-4">
+          ${icons.checkCircle} Avg Compliance
+        </div>
+        <div class="text-3xl font-bold text-gray-900 mb-1">${avgCompliance}%</div>
+        <div class="text-xs text-success font-medium flex items-center gap-1">${icons.arrowUp} 3% from last scan</div>
       </div>
     </div>
-
-    ${renderSDLCSection(mockData.sdlcPosture)}
 
     <div class="card mt-6">
       <div class="card-header">
-        <h3>Detection vs Remediation vs Security Score vs Compliance Posture</h3>
-        <span class="text-xs text-muted">Last 12 months</span>
+        <h3>Application Overview</h3>
+        <button class="btn btn-ghost btn-sm" data-nav="applications">View all ${icons.chevronRight}</button>
       </div>
-      <div class="card-body">
-        <div class="chart-container">
-          ${makeMultiLineChart([
-            { data: detectionData, color: '#EF4444', label: 'Detections' },
-            { data: remediationData, color: '#22C55E', label: 'Remediated' },
-            { data: securityScoreData, color: '#3355FF', label: 'Security Score' },
-            { data: complianceData, color: '#8B5CF6', label: 'Compliance' },
-          ], 200)}
-        </div>
-        <div class="flex justify-between mt-2" style="padding:0 4px">
-          ${months.map(m => `<span class="text-xs text-muted">${m}</span>`).join('')}
-        </div>
-        <div class="chart-legend mt-4">
-          <div class="chart-legend-item"><div class="chart-legend-dot" style="background:#EF4444"></div> Detections</div>
-          <div class="chart-legend-item"><div class="chart-legend-dot" style="background:#22C55E"></div> Remediated</div>
-          <div class="chart-legend-item"><div class="chart-legend-dot" style="background:#3355FF"></div> Security Score</div>
-          <div class="chart-legend-item"><div class="chart-legend-dot" style="background:#8B5CF6"></div> Compliance Posture</div>
+      <div class="card-body" style="padding:0">
+        <div class="data-table-wrapper">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Application</th>
+                <th>Risk</th>
+                <th>Compliance</th>
+                <th>Primary Language</th>
+                <th>Repos</th>
+                <th>Vulnerabilities</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${mockData.applications.map(app => `
+                <tr data-nav="application-detail" data-id="${app.id}">
+                  <td><div class="table-cell-main">${app.name}</div><div class="table-cell-sub">${app.owner}</div></td>
+                  <td><div class="flex items-center gap-2"><span class="status-dot ${app.status}"></span> <span class="text-bold">${app.riskScore}</span></div></td>
+                  <td>
+                    <div class="flex items-center gap-2">
+                      <div class="progress-mini" style="width:60px;height:4px;background:var(--gray-100);border-radius:2px">
+                        <div style="width:${app.compliance}%;height:100%;background:${app.compliance > 80 ? 'var(--success)' : 'var(--warning)'};border-radius:2px"></div>
+                      </div>
+                      <span class="text-xs">${app.compliance}%</span>
+                    </div>
+                  </td>
+                  <td><span class="tag">${app.language}</span></td>
+                  <td><span class="text-sm">${app.repos}</span></td>
+                  <td>${miniSeverityBar(app.critical, app.high, app.medium, app.low)}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
 
-    <div class="two-col mt-6">
-      <div class="card">
-        <div class="card-header">
-          <h3>Top Risky Applications</h3>
-          <button class="btn btn-ghost btn-sm" data-nav="applications">View all ${icons.chevronRight}</button>
-        </div>
-        <div class="card-body" style="padding-top:0">
-          <div class="accordion-nested">
-            ${topApps.map((app, ai) => {
-              const totalIssues = app.critical + app.high + app.medium + app.low;
-              return `
-              <div class="accordion-item" data-accordion="top-app-${ai}">
-                <div class="accordion-header" data-accordion-toggle="top-app-${ai}" style="padding: var(--space-3) var(--space-4)">
-                  <div class="accordion-title">
-                    <span style="color:var(--gray-400)">${icons.layers}</span>
-                    <span class="text-sm text-bold">${app.name} — <span style="color:var(--critical)">${totalIssues} Issues</span></span>
-                  </div>
-                  <span class="accordion-chevron">${icons.chevronDown}</span>
-                </div>
-                <div class="accordion-body">
-                  <div class="accordion-body-inner" style="background:var(--gray-50); padding: var(--space-2) var(--space-4)">
-                    ${(mockData.repositories.filter(r => mockData.issues.find(i => i.app === app.name && i.repo === r.name))).map(repo => {
-                      const repoIssues = mockData.issues.filter(i => i.app === app.name && i.repo === repo.name).length;
-                      return `
-                        <div class="flex justify-between items-center py-2 border-b border-light" style="font-size: 11px">
-                          <div class="flex items-center gap-2">
-                            ${icons.gitRepo}
-                            <span class="text-muted">${repo.name}</span>
-                          </div>
-                          <span class="text-bold">${repoIssues} Issues</span>
-                        </div>
-                      `;
-                    }).join('') || '<div class="text-xs text-muted py-2">No repository data</div>'}
-                  </div>
-                </div>
-              </div>`;
-            }).join('')}
-          </div>
-        </div>
+    <div class="card mt-6">
+      <div class="card-header"><h3>SDLC Security Posture</h3></div>
+      <div class="card-body">
+        ${renderSDLCSection(mockData.sdlcPosture)}
       </div>
-      <div class="card">
+    </div>
+
+    <div class="three-col mt-6">
+      <div class="card" style="display:flex; flex-direction:column">
         <div class="card-header">
-          <h3>Severity Distribution</h3>
+          <h3>Open Issues by Severity</h3>
         </div>
-        <div class="card-body" style="display:flex;flex-direction:column;align-items:center">
-          <div class="donut-chart">
-            ${makeDonut([
-              { value: 26, color: 'var(--critical)' },
-              { value: 86, color: 'var(--high)' },
-              { value: 194, color: 'var(--medium)' },
-              { value: 233, color: 'var(--low)' },
-            ])}
-            <div class="donut-center">
-              <div class="donut-total">539</div>
-              <div class="donut-label">Total Issues</div>
-            </div>
-          </div>
+        <div class="card-body" style="flex:1; display:flex; flex-direction:column; justify-content:space-between">
+          ${makeBarChart(openBySeverity, 240)}
           <div class="chart-legend mt-4">
-            <div class="chart-legend-item"><div class="chart-legend-dot" style="background:var(--critical)"></div> Critical (26)</div>
-            <div class="chart-legend-item"><div class="chart-legend-dot" style="background:var(--high)"></div> High (86)</div>
-            <div class="chart-legend-item"><div class="chart-legend-dot" style="background:var(--medium)"></div> Medium (194)</div>
-            <div class="chart-legend-item"><div class="chart-legend-dot" style="background:var(--low)"></div> Low (233)</div>
+            ${openBySeverity.map(d => `<div class="chart-legend-item"><div class="chart-legend-dot" style="background:${d.color}"></div> ${d.label} (${d.value})</div>`).join('')}
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="card mt-6">
-      <div class="card-header">
-        <h3>Recent Security Alerts</h3>
-      </div>
-      <div class="card-body">
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-dot primary"></div>
-            <div class="timeline-content">
-              <div class="timeline-title">New critical vulnerability detected in Payment Gateway</div>
-              <div class="timeline-time">2 hours ago</div>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <div class="timeline-title">SOC 2 compliance audit completed — 91% pass rate</div>
-              <div class="timeline-time">5 hours ago</div>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <div class="timeline-title">MTTR improved to 4.5 days (was 5.2 days)</div>
-              <div class="timeline-time">1 day ago</div>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <div class="timeline-title">3 high-severity issues resolved in Auth Service</div>
-              <div class="timeline-time">2 days ago</div>
-            </div>
-          </div>
+      <div class="card" style="display:flex; flex-direction:column">
+        <div class="card-header"><h3>Issue Aging Distribution</h3></div>
+        <div class="card-body" style="flex:1; display:flex; flex-direction:column; justify-content:space-between">
+          ${makeBarChart([
+            { label: '0-1d', value: 12, color: 'var(--success)' },
+            { label: '1-3d', value: 28, color: '#22C55E' },
+            { label: '3-7d', value: 45, color: 'var(--medium)' },
+            { label: '7-14d', value: 32, color: 'var(--high)' },
+            { label: '14-30d', value: 18, color: '#EF4444' },
+            { label: '30d+', value: 8, color: '#991B1B' },
+          ], 240)}
+          <div class="text-xs text-muted mt-2" style="text-align:center">At-risk backlog trends</div>
         </div>
       </div>
+      ${renderPRSummary(mockData.prSummary).replace('mt-6', '')}
     </div>
   `;
 }
 
 function renderCISOApplications() {
-  // Map repos to their parent apps
-  const appRepoMap = {
-    'Payment Gateway': ['payment-gateway-api', 'payment-gateway-worker', 'payment-sdk', 'payment-ui'],
-    'User Auth Service': ['auth-service', 'auth-ui'],
-    'Customer Portal': ['customer-portal', 'customer-api', 'customer-widgets'],
-    'Data Pipeline': ['data-pipeline', 'data-ingestion', 'data-transform', 'data-export', 'data-scheduler'],
-    'Internal Admin': ['internal-admin'],
-    'Mobile API': ['mobile-api', 'mobile-gateway'],
-    'Analytics Engine': ['analytics-engine', 'analytics-dashboard', 'analytics-worker'],
-    'Notification Service': ['notification-service'],
-  };
-
-  return `
-    <div class="page-header">
-      <div class="page-header-row">
-        <div>
-          <h1>Applications Risk View</h1>
-          <p class="page-subtitle">Executive overview of application security posture and repository health</p>
-        </div>
-        <div class="flex gap-2">
-          <button class="btn btn-secondary">${icons.download} Export Report</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- CISO Filters -->
-    <div class="filter-bar mb-6">
-      <div class="filter-chip active">All Applications</div>
-      <div class="filter-chip">${icons.alertTriangle} Critical Only</div>
-      <div class="filter-chip">${icons.checkCircle} Compliance Pass</div>
-      <div class="filter-chip" style="border-color:var(--critical-border); color:var(--critical)">${icons.zap} Production Risk</div>
-      <div style="flex:1"></div>
-      <div class="flex items-center gap-2">
-        <span class="text-xs text-muted">Sort by:</span>
-        <select class="btn btn-ghost btn-sm" style="border:1px solid var(--border)"><option>Risk Score (High to Low)</option></select>
-      </div>
-    </div>
-
-    <!-- List Header -->
-    <div class="accordion-list-header">
-      <div style="flex: 1">Application & Team</div>
-      <div style="display: flex; gap: var(--space-4); align-items: center; padding-right: 40px">
-        <div style="width: 80px; text-align: center">Risk Score</div>
-        <div style="width: 100px; text-align: center">Severity Dist.</div>
-        <div style="width: 120px; text-align: left">Primary Owner</div>
-      </div>
-    </div>
-
-    ${mockData.applications.map((app, ai) => {
-      const repos = appRepoMap[app.name] || [];
-      const appIssues = mockData.issues.filter(i => i.app === app.name);
-      const totalIssues = app.critical + app.high + app.medium + app.low;
-      return `
-      <div class="accordion-item ${ai === 0 ? 'open' : ''}" data-accordion="app-${ai}">
-        <div class="accordion-header" data-accordion-toggle="app-${ai}">
-          <div class="accordion-title" style="flex: 1">
-            <span style="color:var(--gray-400)">${icons.layers}</span>
-            <div>
-              <div class="text-bold">${app.name}</div>
-              <div class="text-xs text-muted" style="font-weight:400">${app.team} · ${app.language}</div>
-            </div>
-          </div>
-          <div class="accordion-meta">
-            <div style="width: 80px; display: flex; flex-direction: column; align-items: center; gap: 2px">
-              <div class="progress-bar" style="width:60px"><div class="progress-fill ${app.riskScore > 70 ? 'critical' : app.riskScore > 50 ? 'warning' : 'success'}" style="width:${app.riskScore}%"></div></div>
-              <span class="text-xs text-bold">${app.riskScore}</span>
-            </div>
-            <div style="width: 100px; display: flex; justify-content: center">
-              ${miniSeverityBar(app.critical, app.high, app.medium, app.low)}
-            </div>
-            <div style="width: 120px" class="user-cell">
-              <div class="avatar">${app.owner.split(' ').map(n=>n[0]).join('')}</div>
-              <span class="text-sm">${app.owner}</span>
-            </div>
-            <span class="accordion-chevron">${icons.chevronDown}</span>
-          </div>
-        </div>
-        <div class="accordion-body">
-          <div class="accordion-body-inner" style="padding: var(--space-2) var(--space-5) var(--space-4)">
-            <div class="text-xs text-muted mb-2 px-1">Associated Repositories (${repos.length})</div>
-            <div class="flex flex-col gap-1">
-              ${repos.map((repoName, ri) => {
-                const repoIssuesCount = appIssues.filter(i => i.repo === repoName).length;
-                const repoObj = mockData.repositories.find(r => r.name === repoName);
-                return `
-                <div class="flex items-center justify-between p-2 rounded-md hover-bg transition-fast" style="background:var(--gray-50); border: 1px solid var(--border-light)">
-                  <div class="flex items-center gap-3">
-                    <span style="color:var(--gray-400)">${icons.gitRepo}</span>
-                    <span class="text-sm font-medium">${repoName}</span>
-                    ${repoObj ? `<span class="tag" style="font-size: 10px; padding: 1px 6px">${repoObj.language}</span>` : ''}
-                  </div>
-                  <div class="flex items-center gap-6">
-                    <span class="text-xs" style="color:var(--gray-500)">Scanned ${repoObj ? repoObj.lastScan : 'N/A'}</span>
-                    <span class="text-xs font-bold ${repoIssuesCount > 5 ? 'text-critical' : 'text-gray-700'}">${repoIssuesCount} Issues</span>
-                    <button class="btn btn-ghost btn-xs" data-nav="application-detail" data-id="${app.id}">${icons.externalLink}</button>
-                  </div>
-                </div>`;
-              }).join('')}
-            </div>
-          </div>
-        </div>
-      </div>`;
-    }).join('')}
-  `;
+  return renderSecurityApplications();
 }
 
 function renderCISOAppDetail() {
   const app = mockData.applications.find(a => a.id === (state.params && state.params.id)) || mockData.applications[0];
-  const severityData = [
-    { label: 'Critical', value: app.critical, color: 'var(--critical)' },
-    { label: 'High', value: app.high, color: 'var(--high)' },
-    { label: 'Medium', value: app.medium, color: 'var(--medium)' },
-    { label: 'Low', value: app.low, color: 'var(--low)' },
-  ];
-  const trendData = [
-    { y: 35 }, { y: 32 }, { y: 38 }, { y: 34 }, { y: 30 }, { y: 28 },
-    { y: 32 }, { y: 29 }, { y: 26 }, { y: 24 }, { y: 22 }, { y: 20 },
-  ];
+  const repos = appRepoMap[app.name] || [];
 
   return `
-    <div class="back-link" data-nav="applications">${icons.chevronLeft} Back to Applications</div>
-    <div class="page-header">
-      <div class="page-header-row">
+    <div class="back-link" onclick="goBack()">${icons.chevronLeft} Back</div>
+    
+    <div class="hero-blueprint p-8 mb-8">
+      <div class="flex items-start justify-between">
         <div>
-          <h1>${app.name}</h1>
-          <p class="page-subtitle">${app.team} · ${app.language} · ${app.repos} repositories</p>
+          <div class="flex items-center gap-2 mb-2">
+            <span class="tag tag-sm" style="background:var(--primary-light); color:var(--primary)">Strategic Portfolio</span>
+          </div>
+          <h1 class="strategic-title gradient-text">${app.name}</h1>
+          <p class="text-sm text-muted mt-2">${app.team} · Enterprise Application Portfolio · ${repos.length} Repositories</p>
         </div>
-        <div class="flex gap-2 items-center">
-          ${severityBadge(app.status)}
-          <span class="text-sm text-muted">Risk Score: <strong>${app.riskScore}</strong></span>
+        <div class="flex gap-3">
+          <button class="btn btn-secondary">${icons.download} Executive Summary</button>
         </div>
       </div>
     </div>
 
-    <div class="metrics-grid" style="grid-template-columns:repeat(4,1fr)">
-      <div class="metric-card">
-        <div class="metric-label">Total Issues</div>
-        <div class="metric-value">${app.critical + app.high + app.medium + app.low}</div>
+    <div class="metrics-grid mb-8" style="grid-template-columns: 1fr 1fr 1fr 1fr">
+      <div class="card glass-card p-6" style="display:flex; flex-direction:column; min-height:160px">
+        <div class="text-xs text-muted uppercase font-bold mb-2">Risk Index</div>
+        <div class="text-3xl font-bold">${app.riskScore}<span class="text-sm text-muted">/100</span></div>
+        <div class="progress-mini mt-auto" style="height:6px; background:var(--gray-100); border-radius:3px; margin-top:20px">
+          <div style="width:${100 - app.riskScore}%; height:100%; background:var(--${app.status}); border-radius:3px"></div>
+        </div>
       </div>
-      <div class="metric-card">
-        <div class="metric-label">Critical + High</div>
-        <div class="metric-value" style="color:var(--critical)">${app.critical + app.high}</div>
+
+      <div class="card glass-card p-6" style="display:flex; flex-direction:column; min-height:160px">
+        <div class="text-xs text-muted uppercase font-bold mb-2">Compliance</div>
+        <div class="text-3xl font-bold">${app.compliance}%</div>
+        <div class="text-xs text-muted mt-auto">SOC2 · ISO 27001 · NIST</div>
       </div>
-      <div class="metric-card">
-        <div class="metric-label">Compliance</div>
-        <div class="metric-value">${app.compliance}%</div>
+
+      <div class="card glass-card p-6" style="display:flex; flex-direction:column; min-height:160px">
+        <div class="text-xs text-muted uppercase font-bold mb-2">Technical Debt</div>
+        <div class="text-3xl font-bold">${app.critical + app.high}</div>
+        <div class="text-xs text-muted mt-auto">Critical & High findings</div>
       </div>
-      <div class="metric-card">
-        <div class="metric-label">Last Scan</div>
-        <div class="metric-value" style="font-size:var(--text-2xl)">${app.lastScan}</div>
+
+      <div class="card glass-card p-6" style="display:flex; flex-direction:column; min-height:160px">
+        <div class="text-xs text-muted uppercase font-bold mb-2">Portfolio Health</div>
+        <div class="text-xl font-bold" style="color:var(--${app.status})">${app.status.toUpperCase()}</div>
+        <div class="flex flex-col gap-1 border-t pt-3 mt-auto" style="border-color:rgba(0,0,0,0.05)">
+          <div class="flex justify-between text-xs"><span class="text-muted">Stability</span><span class="font-bold">98%</span></div>
+          <div class="flex justify-between text-xs"><span class="text-muted">Last Scan</span><span class="font-bold">${app.lastScan}</span></div>
+        </div>
       </div>
     </div>
 
-    <div class="two-col">
+    <div class="two-col mb-8">
       <div class="card">
         <div class="card-header"><h3>Severity Distribution</h3></div>
         <div class="card-body">
-          ${makeBarChart(severityData, 180)}
-          <div class="chart-legend mt-4">
-            ${severityData.map(d => `<div class="chart-legend-item"><div class="chart-legend-dot" style="background:${d.color}"></div> ${d.label} (${d.value})</div>`).join('')}
-          </div>
+          ${makeBarChart([
+            { label: 'Critical', value: app.critical, color: 'var(--critical)' },
+            { label: 'High', value: app.high, color: 'var(--high)' },
+            { label: 'Medium', value: app.medium, color: 'var(--medium)' },
+            { label: 'Low', value: app.low, color: 'var(--low)' },
+          ], 160)}
         </div>
       </div>
       <div class="card">
-        <div class="card-header"><h3>Issue Trend</h3></div>
-        <div class="card-body">
-          ${makeLineChart(trendData, 'var(--primary)', 180)}
+        <div class="card-header"><h3>Compliance Gauges</h3></div>
+        <div class="card-body" style="display:flex; justify-content:center; gap:var(--space-6)">
+          ${makeGauge(app.compliance, 'Overall', 100)}
+          ${makeGauge(Math.min(100, app.compliance + 8), 'SOC 2', 100)}
         </div>
       </div>
     </div>
 
-    <div class="two-col mt-6">
-      <div class="card">
-        <div class="card-header"><h3>Compliance Status</h3></div>
-        <div class="card-body" style="display:flex;justify-content:center;gap:var(--space-8);flex-wrap:wrap">
-          ${makeGauge(app.compliance, 'Overall')}
-          ${makeGauge(Math.min(100, app.compliance + 7), 'SOC 2')}
-          ${makeGauge(Math.max(50, app.compliance - 14), 'OWASP')}
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header"><h3>Application Details</h3></div>
-        <div class="card-body">
-          <div class="detail-meta-list">
-            <div class="detail-meta-item"><span class="meta-label">Owner</span><span class="meta-value">${app.owner}</span></div>
-            <div class="detail-meta-item"><span class="meta-label">Team</span><span class="meta-value">${app.team}</span></div>
-            <div class="detail-meta-item"><span class="meta-label">Language</span><span class="meta-value">${app.language}</span></div>
-            <div class="detail-meta-item"><span class="meta-label">Repositories</span><span class="meta-value">${app.repos}</span></div>
-            <div class="detail-meta-item"><span class="meta-label">Risk Score</span><span class="meta-value">${app.riskScore}/100</span></div>
-            <div class="detail-meta-item"><span class="meta-label">Status</span>${severityBadge(app.status)}</div>
-          </div>
-        </div>
-      </div>
+    <div class="section-header mb-4">
+      <h2 style="font-size:var(--text-lg); font-weight:700">Application Repositories</h2>
+    </div>
+
+    <div class="repo-list-container">
+      ${repos.map(repoName => renderRepoRow(repoName, app.name)).join('')}
     </div>
   `;
 }
 
 function renderCompliance() {
-  // Application-wise compliance data
   const appCompliance = mockData.applications.map(app => ({
     name: app.name,
     soc2: Math.min(100, app.compliance + Math.floor(Math.random() * 10)),
@@ -1026,9 +1021,9 @@ function renderCompliance() {
   }));
 
   function complianceCellClass(score) {
-    if (score >= 85) return 'pass';
-    if (score >= 65) return 'partial';
-    return 'fail';
+    if (score >= 85) return 'badge-success';
+    if (score >= 65) return 'badge-warning';
+    return 'badge-critical';
   }
 
   return `
@@ -1036,78 +1031,114 @@ function renderCompliance() {
       <div class="page-header-row">
         <div>
           <h1>Compliance & Governance</h1>
-          <p class="page-subtitle">Framework compliance status across all applications</p>
+          <p class="page-subtitle">Strategic framework compliance matrix across the application portfolio</p>
         </div>
-        <button class="btn btn-primary">${icons.download} Export Report</button>
+        <div class="flex gap-2">
+          <button class="btn btn-secondary">${icons.download} Audit Logs</button>
+          <button class="btn btn-primary">${icons.plus} New Audit</button>
+        </div>
       </div>
     </div>
 
-    <div class="metrics-grid" style="grid-template-columns:repeat(3,1fr)">
-      <div class="metric-card">
-        <div class="metric-label">${icons.checkCircle} Overall Compliance</div>
-        <div class="metric-value">84%</div>
-        <div class="metric-change down">${icons.arrowUp} 3% from last quarter</div>
-      </div>
-      <div class="metric-card">
-        <div class="metric-label">${icons.shield} Frameworks Tracked</div>
-        <div class="metric-value">6</div>
-      </div>
-      <div class="metric-card">
-        <div class="metric-label">${icons.alertTriangle} Failed Controls</div>
-        <div class="metric-value" style="color:var(--critical)">35</div>
-        <div class="metric-change down">${icons.arrowDown} 5 fewer than last quarter</div>
-      </div>
-    </div>
-
-    <div class="framework-grid">
-      ${mockData.frameworks.map(fw => `
-        <div class="card">
-          <div class="card-body" style="display:flex;gap:var(--space-5);align-items:center">
-            <div style="flex-shrink:0">
-              ${makeGauge(fw.score, 'Score', 100)}
-            </div>
-            <div style="flex:1">
-              <h3 style="font-size:var(--text-lg);font-weight:600;margin-bottom:var(--space-3)">${fw.name}</h3>
-              <div class="detail-meta-list">
-                <div class="detail-meta-item"><span class="meta-label">Total Controls</span><span class="meta-value">${fw.controls}</span></div>
-                <div class="detail-meta-item"><span class="meta-label">Passed</span><span class="meta-value" style="color:var(--success)">${fw.passed}</span></div>
-                <div class="detail-meta-item"><span class="meta-label">Failed</span><span class="meta-value" style="color:var(--critical)">${fw.failed}</span></div>
-                <div class="detail-meta-item"><span class="meta-label">Partial</span><span class="meta-value" style="color:var(--warning)">${fw.partial}</span></div>
-              </div>
-            </div>
+    <div class="card mb-8">
+      <div class="card-header flex items-center justify-between">
+        <div>
+          <h3 class="text-sm font-bold text-gray-900">Application Compliance Matrix</h3>
+          <p class="text-xs text-muted">Real-time control status across global standards</p>
+        </div>
+        <div class="flex gap-2">
+          <div class="relative">
+            <span class="absolute left-3 top-1/2 -translate-y-1/2 text-muted">${icons.search}</span>
+            <input type="text" placeholder="Search portfolio..." class="bg-gray-50 border border-gray-200 pl-8 pr-3 py-1.5 rounded-md text-xs w-64 focus:ring-2 focus:ring-primary focus:border-transparent transition-all" />
           </div>
         </div>
-      `).join('')}
+      </div>
+      <div class="data-table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th class="pl-6" style="min-width:220px">Application</th>
+              <th class="text-center font-semibold">SOC 2</th>
+              <th class="text-center font-semibold">ISO 27001</th>
+              <th class="text-center font-semibold">OWASP</th>
+              <th class="text-center font-semibold">PCI DSS</th>
+              <th class="text-center font-semibold">NIST CSF</th>
+              <th class="text-center font-semibold text-pr-6">GDPR</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${appCompliance.map(ac => `
+              <tr class="hover:bg-gray-50 transition-colors">
+                <td class="pl-6">
+                  <div class="font-bold text-gray-900 text-sm">${ac.name}</div>
+                  <div class="text-xs text-muted">v2.4.0 · Production</div>
+                </td>
+                <td class="text-center"><span class="badge ${complianceCellClass(ac.soc2)}">${ac.soc2}%</span></td>
+                <td class="text-center"><span class="badge ${complianceCellClass(ac.iso27001)}">${ac.iso27001}%</span></td>
+                <td class="text-center"><span class="badge ${complianceCellClass(ac.owasp)}">${ac.owasp}%</span></td>
+                <td class="text-center"><span class="badge ${complianceCellClass(ac.pci)}">${ac.pci}%</span></td>
+                <td class="text-center"><span class="badge ${complianceCellClass(ac.nist)}">${ac.nist}%</span></td>
+                <td class="text-center pr-6"><span class="badge ${complianceCellClass(ac.gdpr)}">${ac.gdpr}%</span></td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
     </div>
 
-    <div class="card mt-6">
-      <div class="card-header">
-        <h3>Application-wise Compliance Heatmap</h3>
-        <span class="text-xs text-muted">Score by framework per application</span>
-      </div>
-      <div class="card-body">
-        <div class="compliance-heatmap">
-          <div class="compliance-heatmap-header" style="text-align:left">Application</div>
-          <div class="compliance-heatmap-header">SOC 2</div>
-          <div class="compliance-heatmap-header">ISO 27001</div>
-          <div class="compliance-heatmap-header">OWASP</div>
-          <div class="compliance-heatmap-header">PCI DSS</div>
-          <div class="compliance-heatmap-header">NIST CSF</div>
-          <div class="compliance-heatmap-header">GDPR</div>
-          ${appCompliance.map(ac => `
-            <div class="compliance-heatmap-app">${ac.name}</div>
-            <div class="compliance-cell ${complianceCellClass(ac.soc2)}">${ac.soc2}%</div>
-            <div class="compliance-cell ${complianceCellClass(ac.iso27001)}">${ac.iso27001}%</div>
-            <div class="compliance-cell ${complianceCellClass(ac.owasp)}">${ac.owasp}%</div>
-            <div class="compliance-cell ${complianceCellClass(ac.pci)}">${ac.pci}%</div>
-            <div class="compliance-cell ${complianceCellClass(ac.nist)}">${ac.nist}%</div>
-            <div class="compliance-cell ${complianceCellClass(ac.gdpr)}">${ac.gdpr}%</div>
-          `).join('')}
+    <div class="grid grid-cols-2 gap-8">
+      <div class="card p-6">
+        <div class="flex items-center justify-between mb-6">
+          <h3 class="text-sm font-bold text-gray-900 uppercase tracking-tight">Focus Compliance Risks</h3>
+          <span class="tag tag-sm bg-red-100 text-critical font-bold">Priority</span>
         </div>
-        <div class="chart-legend mt-4">
-          <div class="chart-legend-item"><div class="compliance-cell pass" style="width:14px;height:14px;padding:0;min-height:auto;border-radius:3px"></div> ≥85% Pass</div>
-          <div class="chart-legend-item"><div class="compliance-cell partial" style="width:14px;height:14px;padding:0;min-height:auto;border-radius:3px"></div> 65-84% Partial</div>
-          <div class="chart-legend-item"><div class="compliance-cell fail" style="width:14px;height:14px;padding:0;min-height:auto;border-radius:3px"></div> <65% Needs Attention</div>
+        <div class="space-y-4">
+          <div class="flex justify-between items-center p-4 bg-red-50 rounded-xl border border-red-100/50 hover:border-red-200 transition-all">
+            <div class="flex items-start gap-3">
+              <div class="p-2 bg-white rounded-lg shadow-xs text-critical">${icons.shieldAlert}</div>
+              <div>
+                <div class="text-sm font-bold text-gray-900">GDPR Data Privacy Gap</div>
+                <div class="text-xs text-muted font-medium">Zenith Analytics · Failed controls: 3</div>
+              </div>
+            </div>
+            <button class="btn btn-secondary btn-sm rounded-lg">Remediate</button>
+          </div>
+          <div class="flex justify-between items-center p-4 bg-amber-50 rounded-xl border border-amber-100/50 hover:border-amber-200 transition-all">
+            <div class="flex items-start gap-3">
+              <div class="p-2 bg-white rounded-lg shadow-xs text-amber-600">${icons.alertTriangle}</div>
+              <div>
+                <div class="text-sm font-bold text-gray-900">ISO 27001 Access Audit</div>
+                <div class="text-xs text-muted font-medium">Mobile Gateway · Pending cycle</div>
+              </div>
+            </div>
+            <button class="btn btn-secondary btn-sm rounded-lg">View Audit</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="card p-6">
+        <h3 class="text-sm font-semibold mb-4">Upcoming Audits</h3>
+        <div class="space-y-4">
+          <div class="flex items-center gap-4">
+            <div class="bg-gray-100 p-2 rounded text-center" style="width:50px">
+              <div class="text-xs font-bold">APR</div>
+              <div class="text-lg font-bold">18</div>
+            </div>
+            <div>
+              <div class="text-xs font-bold">SOC 2 Type II Recertification</div>
+              <div class="text-xs text-muted">All Production Systems</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="bg-gray-100 p-2 rounded text-center" style="width:50px">
+              <div class="text-xs font-bold">MAY</div>
+              <div class="text-lg font-bold">04</div>
+            </div>
+            <div>
+              <div class="text-xs font-bold">PCI DSS Periodic Assessment</div>
+              <div class="text-xs text-muted">Global Checkout Portfolio</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -1361,62 +1392,127 @@ function renderSecurityDashboard() {
     { label: 'Medium', value: 194, color: 'var(--medium)' },
     { label: 'Low', value: 233, color: 'var(--low)' },
   ];
-  const unassignedCritical = mockData.issues.filter(i => !i.assignee && (i.severity === 'critical' || i.severity === 'high'));
+
+  const totalApps = mockData.applications.length;
+  const vulnerableApps = mockData.applications.filter(a => a.critical > 0 || a.high > 0).length;
+
+  const criticalIssues = mockData.issues.filter(i => i.severity === 'critical').slice(0, 5);
+  const vulnDeps = mockData.dependencies.filter(d => d.severity === 'critical' || d.severity === 'high').slice(0, 5);
 
   return `
     <div class="page-header">
       <div class="page-header-row">
         <div>
           <h1>Security Dashboard</h1>
-          <p class="page-subtitle">Operational overview for your security team</p>
+          <p class="page-subtitle">Operational security monitoring & vulnerability management</p>
         </div>
-        <button class="btn btn-primary" data-nav="issues">${icons.alertTriangle} View All Issues</button>
+        <div class="flex gap-2">
+          <button class="btn btn-secondary">${icons.download} Export</button>
+          <button class="btn btn-primary">${icons.plus} New Scan</button>
+        </div>
       </div>
     </div>
 
-    <div class="metrics-grid" style="grid-template-columns:repeat(5,1fr)">
-      <div class="metric-card">
-        <div class="metric-label">${icons.alertTriangle} Open Critical</div>
-        <div class="metric-value" style="color:var(--critical)">26</div>
-        <div class="metric-change up">${icons.arrowUp} 4 new today</div>
+    <div class="grid grid-cols-5 gap-6">
+      <div class="card p-6 flex flex-col justify-between">
+        <div class="flex items-center gap-2 text-xs font-bold text-muted uppercase tracking-wider mb-4">
+          ${icons.layers} Monitored Apps
+        </div>
+        <div class="text-3xl font-bold text-gray-900 mb-1">${totalApps}</div>
+        <div class="text-xs text-muted font-medium italic">Active scans enabled</div>
       </div>
-      <div class="metric-card">
-        <div class="metric-label">${icons.clock} SLA Breached</div>
-        <div class="metric-value" style="color:var(--high)">8</div>
-        <div class="metric-change up">${icons.arrowUp} 2 more than yesterday</div>
+      <div class="card p-6 flex flex-col justify-between">
+        <div class="flex items-center gap-2 text-xs font-bold text-muted uppercase tracking-wider mb-4">
+          ${icons.shield} App Coverage
+        </div>
+        <div class="text-3xl font-bold text-gray-900 mb-1">${Math.round((totalApps / 10) * 100)}%</div>
+        <div class="text-xs text-success font-medium flex items-center gap-1">${icons.arrowUp} 5% improvement</div>
       </div>
-      <div class="metric-card">
-        <div class="metric-label">${icons.checkCircle} Resolved (7d)</div>
-        <div class="metric-value" style="color:var(--success)">42</div>
-        <div class="metric-change down">${icons.arrowUp} 15% increase</div>
+      <div class="card p-6 flex flex-col justify-between">
+        <div class="flex items-center gap-2 text-xs font-bold text-muted uppercase tracking-wider mb-4">
+          ${icons.shieldAlert} Vulnerable Apps
+        </div>
+        <div class="text-3xl font-bold text-high mb-1">${vulnerableApps}</div>
+        <div class="text-xs text-muted font-medium">${vulnerableApps}/${totalApps} apps at risk</div>
       </div>
-      <div class="metric-card">
-        <div class="metric-label">${icons.user} Unassigned Critical</div>
-        <div class="metric-value" style="color:var(--high)">${unassignedCritical.length}</div>
-        <div class="metric-change up">Needs attention</div>
+      <div class="card p-6 flex flex-col justify-between">
+        <div class="flex items-center gap-2 text-xs font-bold text-muted uppercase tracking-wider mb-4">
+          ${icons.alertTriangle} Total Issues
+        </div>
+        <div class="text-3xl font-bold text-gray-900 mb-1">539</div>
+        <div class="text-xs text-success font-medium flex items-center gap-1">${icons.arrowDown} 8% reduction</div>
       </div>
-      <div class="metric-card">
-        <div class="metric-label">${icons.activity} New Today</div>
-        <div class="metric-value">7</div>
-        <div class="metric-change neutral">Avg: 5/day</div>
+      <div class="card p-6 flex flex-col justify-between">
+        <div class="flex items-center gap-2 text-xs font-bold text-muted uppercase tracking-wider mb-4">
+          ${icons.clock} SLA Breached
+        </div>
+        <div class="text-3xl font-bold text-critical mb-1">8</div>
+        <div class="text-xs text-muted font-medium">Needs immediate action</div>
       </div>
     </div>
 
-    <div class="two-col">
-      <div class="card">
+    <div class="card glass-card mt-6">
+      <div class="card-header" style="border-bottom-color: rgba(255,255,255,0.3)">
+        <h3 class="gradient-text">Application Portfolio Overview</h3>
+        <button class="btn btn-ghost btn-sm" data-nav="applications" style="background:var(--primary-light); color:var(--primary)">Detailed View ${icons.chevronRight}</button>
+      </div>
+      <div class="card-body" style="padding:0">
+        <div class="data-table-wrapper">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Application</th>
+                <th>Risk</th>
+                <th>Compliance</th>
+                <th>Vulnerabilities</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${mockData.applications.slice(0, 6).map(app => `
+                <tr data-nav="application-detail" data-id="${app.id}">
+                  <td><div class="table-cell-main" style="color:var(--gray-900)">${app.name}</div><div class="table-cell-sub">${app.team}</div></td>
+                  <td><div class="flex items-center gap-2"><span class="status-dot ${app.status}"></span> <span class="text-bold">${app.riskScore}</span></div></td>
+                  <td>
+                    <div class="flex items-center gap-2">
+                      <div class="progress-mini" style="width:60px;height:4px;background:var(--gray-100);border-radius:2px">
+                        <div style="width:${app.compliance}%;height:100%;background:${app.compliance > 80 ? 'var(--success)' : 'var(--warning)'};border-radius:2px"></div>
+                      </div>
+                      <span class="text-xs font-bold">${app.compliance}%</span>
+                    </div>
+                  </td>
+                  <td>${miniSeverityBar(app.critical, app.high, app.medium, app.low)}</td>
+                  <td><button class="btn btn-ghost btn-xs" style="color:var(--primary)">${icons.eye} Analyze</button></td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mt-6">
+      <div class="card-header"><h3>Vulnerability Funnel</h3></div>
+      <div class="card-body">
+        ${renderVulnFunnel(mockData.vulnFunnel)}
+      </div>
+    </div>
+
+    <div class="three-col mt-6">
+      <div class="card" style="display:flex; flex-direction:column">
         <div class="card-header">
           <h3>Open Issues by Severity</h3>
         </div>
-        <div class="card-body">
-          ${makeBarChart(openBySeverity, 180)}
+        <div class="card-body" style="flex:1; display:flex; flex-direction:column; justify-content:space-between">
+          ${makeBarChart(openBySeverity, 240)}
           <div class="chart-legend mt-4">
             ${openBySeverity.map(d => `<div class="chart-legend-item"><div class="chart-legend-dot" style="background:${d.color}"></div> ${d.label} (${d.value})</div>`).join('')}
           </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" style="display:flex; flex-direction:column">
         <div class="card-header"><h3>Issue Aging Distribution</h3></div>
-        <div class="card-body">
+        <div class="card-body" style="flex:1; display:flex; flex-direction:column; justify-content:space-between">
           ${makeBarChart([
             { label: '0-1d', value: 12, color: 'var(--success)' },
             { label: '1-3d', value: 28, color: '#22C55E' },
@@ -1424,32 +1520,50 @@ function renderSecurityDashboard() {
             { label: '7-14d', value: 32, color: 'var(--high)' },
             { label: '14-30d', value: 18, color: '#EF4444' },
             { label: '30d+', value: 8, color: '#991B1B' },
-          ], 180)}
-          <div class="text-xs text-muted mt-2" style="text-align:center">Issues open longer than 7 days need escalation</div>
+          ], 240)}
+          <div class="text-xs text-muted mt-2" style="text-align:center">Operational backlog health</div>
         </div>
       </div>
+      ${renderPRSummary(mockData.prSummary).replace('mt-6', '')}
     </div>
 
-    ${renderVulnFunnel(mockData.vulnFunnel)}
-
     <div class="two-col mt-6">
-      ${renderPRSummary(mockData.prSummary)}
       <div class="card">
-        <div class="card-header">
-          <h3>Top Affected Applications</h3>
+        <div class="card-header"><h3>Critical Open Vulnerabilities</h3></div>
+        <div class="card-body" style="padding:0">
+          <div class="data-table-wrapper">
+            <table class="data-table">
+              <thead><tr><th>Issue</th><th>Application</th><th>Age</th></tr></thead>
+              <tbody>
+                ${criticalIssues.map(issue => `
+                  <tr>
+                    <td><div class="table-cell-main">${issue.title}</div><div class="table-cell-sub">${issue.id}</div></td>
+                    <td><div class="tag">${issue.app}</div></td>
+                    <td class="text-xs text-muted">${issue.age}</td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
         </div>
-        <div class="card-body" style="padding-top:0">
-          <table class="data-table">
-            <thead><tr><th>Application</th><th>Distribution</th></tr></thead>
-            <tbody>
-              ${mockData.applications.slice(0, 5).map(app => `
-                <tr>
-                  <td><div class="table-cell-main">${app.name}</div></td>
-                  <td>${miniSeverityBar(app.critical, app.high, app.medium, app.low)}</td>
-                </tr>
-              `).join('')}
-            </tbody>
-          </table>
+      </div>
+      <div class="card">
+        <div class="card-header"><h3>Recent Vulnerable Packages (SCA)</h3></div>
+        <div class="card-body" style="padding:0">
+          <div class="data-table-wrapper">
+            <table class="data-table">
+              <thead><tr><th>Package</th><th>Severity</th><th>Impact</th></tr></thead>
+              <tbody>
+                ${vulnDeps.map(dep => `
+                  <tr>
+                    <td><div class="table-cell-main" style="font-family:var(--font-mono)">${dep.name}</div><div class="table-cell-sub">v${dep.version}</div></td>
+                    <td><span class="status-dot ${dep.severity}"></span> <span class="text-xs text-bold">${dep.severity.toUpperCase()}</span></td>
+                    <td class="text-xs text-muted">${dep.apps.length} Apps Affected</td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
@@ -1458,85 +1572,75 @@ function renderSecurityDashboard() {
 
 function renderSecurityIssues() {
   return `
-    <div class="page-header">
-      <div class="page-header-row">
-        <div>
-          <h1>All Issues</h1>
-          <p class="page-subtitle">View and manage all security issues across the organization</p>
+    <div class="tabs mb-6">
+      <div class="tab active">All Issues <span class="tab-badge">${mockData.issues.length}</span></div>
+      <div class="tab">Open <span class="tab-badge">${mockData.issues.filter(i => i.status === 'open').length}</span></div>
+      <div class="tab">In Progress <span class="tab-badge">${mockData.issues.filter(i => i.status === 'in-progress').length}</span></div>
+      <div class="tab">Resolved <span class="tab-badge">${mockData.issues.filter(i => i.status === 'resolved').length}</span></div>
+    </div>
+
+    <div class="card p-4 mb-6 flex items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <div class="filter-chip active">${icons.filter} All Severities</div>
+        <div class="filter-chip">Critical</div>
+        <div class="filter-chip">High</div>
+        <div class="filter-chip">Medium</div>
+        <div class="filter-chip">Low</div>
+      </div>
+      <div class="flex items-center gap-3">
+        <div class="relative">
+          <span class="absolute left-3 top-1/2 -translate-y-1/2 text-muted">${icons.search}</span>
+          <input type="text" placeholder="Search issues..." class="bg-gray-50 border border-gray-200 pl-8 pr-4 py-1.5 rounded-lg text-sm w-64 focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all" />
         </div>
-        <div class="flex gap-2">
-          <button class="btn btn-secondary">${icons.download} Export</button>
-          <button class="btn btn-primary">Bulk Actions</button>
-        </div>
+        <button class="btn btn-secondary btn-sm">${icons.download} Export</button>
       </div>
     </div>
 
-    <div class="tabs">
-      <div class="tab active">All (${mockData.issues.length})</div>
-      <div class="tab">Open (${mockData.issues.filter(i => i.status === 'open').length})</div>
-      <div class="tab">In Progress (${mockData.issues.filter(i => i.status === 'in-progress').length})</div>
-      <div class="tab">Resolved (${mockData.issues.filter(i => i.status === 'resolved').length})</div>
-    </div>
-
-    <div class="filter-bar">
-      <div class="filter-chip active">${icons.filter} All Severities</div>
-      <div class="filter-chip">Critical</div>
-      <div class="filter-chip">High</div>
-      <div class="filter-chip">Medium</div>
-      <div class="filter-chip">Low</div>
-      <div style="flex:1"></div>
-      <div class="topbar-search" style="width:200px">
-        <span class="search-icon">${icons.search}</span>
-        <input type="text" placeholder="Search issues…" />
-      </div>
-    </div>
-
-    <div class="card">
+    <div class="card overflow-hidden">
       <div class="data-table-wrapper">
         <table class="data-table">
           <thead>
             <tr>
-              <th style="width:30px"><div class="checkbox"></div></th>
-              <th>ID</th>
-              <th>Issue</th>
+              <th class="pl-6" style="width:40px"><div class="checkbox"></div></th>
+              <th style="width:100px">Issue ID</th>
+              <th>Vulnerability Details</th>
               <th>Severity</th>
               <th>Status</th>
               <th>Application</th>
               <th>Source</th>
               <th>Assignee</th>
-              <th>Age</th>
+              <th class="pr-6">Age</th>
             </tr>
           </thead>
           <tbody>
             ${mockData.issues.map(issue => `
-              <tr data-nav="issue-detail" data-id="${issue.id}">
-                <td><div class="checkbox"></div></td>
-                <td class="text-sm text-muted">${issue.id}</td>
+              <tr class="hover:bg-gray-50 transition-colors clickable" data-nav="issue-detail" data-id="${issue.id}">
+                <td class="pl-6"><div class="checkbox"></div></td>
+                <td><code class="text-xs font-bold text-gray-500">${issue.id}</code></td>
                 <td>
-                  <div class="table-cell-main">${issue.title}</div>
-                  <div class="table-cell-sub">${issue.file}:${issue.line}</div>
+                  <div class="font-bold text-gray-900 text-sm">${issue.title}</div>
+                  <div class="text-xs text-muted font-medium font-mono truncate max-w-xs">${issue.file}:${issue.line}</div>
                 </td>
                 <td>${severityBadge(issue.severity)}</td>
                 <td>${statusBadge(issue.status)}</td>
-                <td class="text-sm">${issue.app}</td>
-                <td><span class="tag">${issue.source}</span></td>
+                <td><span class="tag tag-sm">${issue.app}</span></td>
+                <td><span class="text-xs font-bold text-gray-600">${issue.source}</span></td>
                 <td>
-                  ${issue.assignee ? `<div class="user-cell"><div class="avatar">${issue.assignee.split(' ').map(n=>n[0]).join('')}</div><span class="text-sm">${issue.assignee}</span></div>` : '<span class="text-sm text-muted">Unassigned</span>'}
+                  ${issue.assignee ? `<div class="flex items-center gap-2"><div class="avatar-sm">${issue.assignee.split(' ').map(n=>n[0]).join('')}</div><span class="text-xs font-semibold">${issue.assignee}</span></div>` : '<span class="text-xs text-muted italic">Unassigned</span>'}
                 </td>
-                <td class="text-sm text-muted">${issue.age}</td>
+                <td class="pr-6 text-xs text-muted font-medium">${issue.age}</td>
               </tr>
             `).join('')}
           </tbody>
         </table>
       </div>
-      <div class="pagination" style="padding:var(--space-4) var(--space-5)">
-        <span>Showing 1-${mockData.issues.length} of ${mockData.issues.length} issues</span>
-        <div class="pagination-btns">
-          <button class="pagination-btn">${icons.chevronLeft}</button>
-          <button class="pagination-btn active">1</button>
-          <button class="pagination-btn">2</button>
-          <button class="pagination-btn">3</button>
-          <button class="pagination-btn">${icons.chevronRight}</button>
+      <div class="p-6 bg-gray-50/50 border-t border-gray-100 flex items-center justify-between">
+        <span class="text-xs text-muted font-medium">Showing <b>1-${mockData.issues.length}</b> of <b>${mockData.issues.length}</b> total issues</span>
+        <div class="flex gap-1">
+          <button class="btn btn-ghost btn-sm p-2 bg-white border border-gray-200">${icons.chevronLeft}</button>
+          <button class="btn btn-primary btn-sm px-3 shadow-sm rounded-lg">1</button>
+          <button class="btn btn-ghost btn-sm px-3 bg-white border border-gray-200">2</button>
+          <button class="btn btn-ghost btn-sm p-2 bg-white border border-gray-200">${icons.chevronRight}</button>
         </div>
       </div>
     </div>
@@ -1547,7 +1651,7 @@ function renderSecurityIssueDetail() {
   const issue = mockData.issues.find(i => i.id === (state.params && state.params.id)) || mockData.issues[0];
 
   return `
-    <div class="back-link" data-nav="issues">${icons.chevronLeft} Back to All Issues</div>
+    <div class="back-link" onclick="goBack()">${icons.chevronLeft} Back</div>
     <div class="page-header">
       <div class="page-header-row">
         <div>
@@ -1661,6 +1765,156 @@ function renderSecurityIssueDetail() {
   `;
 }
 
+function renderRepoDetail() {
+  const role = state.role;
+  const params = state.params || {};
+  const repo = mockData.repositories.find(r => r.id === params.id || r.name === params.repoName);
+  const currentUser = 'Sarah Chen';
+  
+  if (!repo) {
+    const backNav = role === 'developer' ? 'repositories' : 'applications';
+    return `<div class="p-8 text-center text-muted"><h3>Repository not found: ${params.repoName || params.id}</h3><button class="btn btn-primary mt-4" data-nav="${backNav}">Back to ${role === 'developer' ? 'Repositories' : 'Portfolio'}</button></div>`;
+  }
+
+  const selectedBranchName = params.selectedBranch || repo.branch;
+  const activeTab = params.activeTab || 'issues';
+  
+  // Filtering based on User (Sarah Chen) and Repository
+  const userIssues = mockData.issues.filter(i => i.repo === repo.name && i.assignee === currentUser);
+  const userPRs = mockData.pullRequests.filter(p => p.repo === repo.name && p.author === currentUser);
+
+  return `
+    <div class="repo-detail-premium">
+      <div class="back-link mb-6" onclick="goBack()">${icons.chevronLeft} Back</div>
+
+      <!-- PREMIUM HERO HEADER -->
+      <div class="hero-blueprint p-8 mb-8" style="background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%); border: 1px solid var(--border-light); border-radius: 16px; position: relative; overflow: hidden">
+        <div style="position: absolute; right: -20px; top: -20px; opacity: 0.03; transform: rotate(-15deg)">${icons.gitRepo}</div>
+        <div class="flex items-start justify-between">
+          <div>
+            <div class="flex items-center gap-2 mb-2">
+              <span class="text-[10px] font-bold tracking-widest text-primary uppercase bg-primary-light px-2 py-0.5 rounded">REPOSITORY</span>
+              <span class="text-[10px] font-bold tracking-widest text-gray-400">/</span>
+              <span class="text-[10px] font-bold tracking-widest text-gray-500 uppercase">${repo.language}</span>
+            </div>
+            <h1 class="strategic-title gradient-text mb-2" style="font-size: 32px">${repo.name}</h1>
+            <div class="flex items-center gap-4 text-xs text-muted">
+              <span class="flex items-center gap-1">${icons.globe} Public Repository</span>
+              <span class="flex items-center gap-1">${icons.activity} Last Scanned ${repo.lastScan}</span>
+            </div>
+          </div>
+          <div class="flex gap-3">
+            <button class="btn btn-secondary glass-card">${icons.fileText} Export Security JSON</button>
+            <button class="btn btn-primary shadow-lg">${icons.activity} Trigger Scan</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- METRICS GRID WITH GAUGES -->
+      <div class="metrics-grid mb-8" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px">
+        <div class="card glass-card flex items-center gap-6 p-6">
+          ${makeGauge(repo.riskScore, 'Risk Score')}
+          <div>
+            <div class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">Security Health</div>
+            <div class="text-sm font-bold text-gray-900">Composite Risk Rating</div>
+          </div>
+        </div>
+        <div class="metric-card glass-card">
+          <div class="metric-label">Active Issues</div>
+          <div class="metric-value" style="color:var(--${repo.health})">${repo.openIssues}</div>
+          <div class="text-xs text-muted">Detected in ${selectedBranchName}</div>
+        </div>
+        <div class="metric-card glass-card">
+          <div class="metric-label">Vulnerability ID</div>
+          <div class="metric-value font-bold" style="color:var(--gray-900)">${userIssues.length > 0 ? userIssues[0].id.split('-')[1] : 'N/A'}</div>
+          <div class="text-xs text-muted">Latest for you</div>
+        </div>
+      </div>
+
+      <!-- ACTION CONTROLS -->
+      <div class="flex items-center justify-between mb-6 pb-4 border-b border-gray-100">
+        <div class="flex items-center gap-4">
+          <div class="branch-selector-wrapper" style="position:relative">
+            <span style="position:absolute; left:12px; top:50%; transform:translateY(-50%); color:var(--gray-400)">${icons.code}</span>
+            <select id="repo-branch-select" class="btn btn-ghost" style="padding-left:36px; border: 1px solid var(--border); border-radius:8px; font-weight:600; font-size:13px; background:white">
+              ${repo.branches.map(b => `<option value="${b.name}" ${b.name === selectedBranchName ? 'selected' : ''}>${b.name} ${b.name === repo.branch ? '(Default)' : ''}</option>`).join('')}
+            </select>
+          </div>
+          
+          <div class="repo-tab-switcher" style="display: flex; gap: 32px; border-bottom: 1px solid #e2e8f0; width: 100%">
+            <button class="relative pb-3 text-sm font-semibold transition-all transition-colors ${activeTab === 'issues' ? 'text-gray-900' : 'text-gray-400 hover:text-gray-600'}" 
+                    style="background: transparent; border: none; outline: none; padding-left: 0; padding-right:0; cursor: pointer; border-bottom: 2px solid ${activeTab === 'issues' ? '#6366f1' : 'transparent'}; margin-bottom: -1px; ${activeTab === 'issues' ? 'color: #6366f1 !important' : ''}" data-repo-tab="issues">
+              Issues <span style="margin-left: 4px; font-weight: normal; opacity: 0.5">${userIssues.length}</span>
+            </button>
+            <button class="relative pb-3 text-sm font-semibold transition-all transition-colors ${activeTab === 'prs' ? 'text-gray-900' : 'text-gray-400 hover:text-gray-600'}" 
+                    style="background: transparent; border: none; outline: none; padding-left: 0; padding-right:0; cursor: pointer; border-bottom: 2px solid ${activeTab === 'prs' ? '#6366f1' : 'transparent'}; margin-bottom: -1px; ${activeTab === 'prs' ? 'color: #6366f1 !important' : ''}" data-repo-tab="prs">
+              Pull Requests <span style="margin-left: 4px; font-weight: normal; opacity: 0.5">${userPRs.length}</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="text-[12px] text-gray-400 font-medium">
+          Viewing branch: <span class="text-gray-900 font-semibold">${selectedBranchName}</span>
+        </div>
+      </div>
+
+      <!-- PREMIUM DATA TABLE -->
+      <div class="card overflow-hidden shadow-sm border border-gray-200">
+        <div class="data-table-wrapper">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Vulnerability</th>
+                <th style="text-align:center">Severity</th>
+                <th style="text-align:center">Status</th>
+                <th style="text-align:center">ID</th>
+                <th style="text-align:center">Triage</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${activeTab === 'issues' ? 
+                (userIssues.length > 0 ? userIssues.map(iss => `
+                  <tr>
+                    <td>
+                      <div class="font-bold text-gray-900">${iss.title}</div>
+                      <div class="text-[11px] text-muted">${iss.file} · Line ${iss.line}</div>
+                    </td>
+                    <td style="text-align:center">
+                      <span class="badge badge-${iss.severity}">${iss.severity.toUpperCase()}</span>
+                    </td>
+                    <td style="text-align:center">
+                      <span class="text-[10px] font-bold text-orange-600 px-2 py-0.5 bg-orange-50 rounded border border-orange-100 uppercase">${iss.status}</span>
+                    </td>
+                    <td style="text-align:center" class="text-xs font-medium text-gray-500">${iss.id}</td>
+                    <td style="text-align:center">${icons.chevronRight}</td>
+                  </tr>
+                `).join('') : '<tr><td colspan="5" style="text-align:center; padding: 48px; color: var(--gray-400)">No issues assigned to you in this branch.</td></tr>')
+                :
+                (userPRs.length > 0 ? userPRs.map(pr => `
+                  <tr>
+                    <td>
+                      <div class="font-bold text-gray-900">${pr.title}</div>
+                      <div class="text-[11px] text-muted">${pr.branch} · ${pr.created}</div>
+                    </td>
+                    <td style="text-align:center">
+                      <span class="badge" style="background:var(--primary-light); color:var(--primary)">${pr.riskLevel.toUpperCase()} RISK</span>
+                    </td>
+                    <td style="text-align:center">
+                      <span class="text-[10px] font-bold text-blue-600 px-2 py-0.5 bg-blue-50 rounded border border-blue-100 uppercase">${pr.status}</span>
+                    </td>
+                    <td style="text-align:center" class="text-xs font-medium text-gray-500">${pr.id}</td>
+                    <td style="text-align:center">${icons.chevronRight}</td>
+                  </tr>
+                `).join('') : '<tr><td colspan="5" style="text-align:center; padding: 48px; color: var(--gray-400)">No pull requests created by you in this branch.</td></tr>')
+              }
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
 function renderSecurityApplications() {
   return `
     <div class="page-header">
@@ -1689,74 +1943,30 @@ function renderSecurityApplications() {
 
     ${mockData.applications.map((app, ai) => {
       const repos = appRepoMap[app.name] || [];
-      const appIssues = mockData.issues.filter(i => i.app === app.name);
       return `
       <div class="accordion-item ${ai === 0 ? 'open' : ''}" data-accordion="sec-app-${ai}">
-        <div class="accordion-header" data-accordion-toggle="sec-app-${ai}">
+        <div class="accordion-header glass-card" data-accordion-toggle="sec-app-${ai}" style="padding: var(--space-4) var(--space-6); border-radius: var(--radius-lg); margin-bottom: var(--space-1)">
           <div class="accordion-title">
-            <span style="color:var(--gray-400)">${icons.layers}</span>
-            <div>
-              <div class="text-bold">${app.name}</div>
-              <div class="text-xs text-muted">${app.team} · ${repos.length} Repositories</div>
+            <div class="flex items-center gap-4">
+              <div class="portfolio-drilldown clickable" data-nav="application-detail" data-id="${app.id}" title="View Application Portfolio" style="color:var(--primary); background:var(--primary-light); padding:8px; border-radius:var(--radius-md); display:flex; align-items:center; justify-content:center; transition:all 0.2s">
+                ${icons.externalLink}
+              </div>
+              <div>
+                <div class="text-bold" style="font-size:var(--text-base); color:var(--gray-900)">${app.name} <span class="text-xs text-muted" style="font-weight:400; margin-left:8px">${app.team}</span></div>
+                <div class="text-xs text-muted">${repos.length} Repositories · ${app.language}</div>
+              </div>
             </div>
           </div>
           <div class="accordion-meta">
             ${severityBadge(app.status)}
             ${miniSeverityBar(app.critical, app.high, app.medium, app.low)}
-            <span class="accordion-chevron">${icons.chevronDown}</span>
+            <span class="accordion-chevron" style="margin-left:var(--space-4)">${icons.chevronDown}</span>
           </div>
         </div>
         <div class="accordion-body">
-          <div class="accordion-body-inner" style="padding-top: var(--space-4)">
-            <div class="accordion-nested">
-              ${repos.map((repoName, ri) => {
-                const repoIssues = appIssues.filter(i => i.repo === repoName);
-                const repoObj = mockData.repositories.find(r => r.name === repoName);
-                return `
-                <div class="accordion-item ${ri === 0 ? 'open' : ''}" data-accordion="sec-repo-${ai}-${ri}">
-                  <div class="accordion-header" data-accordion-toggle="sec-repo-${ai}-${ri}" style="background:var(--gray-50)">
-                    <div class="accordion-title">
-                      <span style="color:var(--gray-400)">${icons.gitRepo}</span>
-                      <span class="text-sm font-bold">${repoName}</span>
-                      ${repoObj ? `<span class="tag" style="font-size:10px">${repoObj.language}</span>` : ''}
-                    </div>
-                    <div class="accordion-meta">
-                      <span class="text-xs text-bold" style="color:var(--critical)">${repoIssues.length} Findings</span>
-                      <span class="accordion-chevron">${icons.chevronDown}</span>
-                    </div>
-                  </div>
-                  <div class="accordion-body">
-                    <div class="accordion-body-inner" style="padding: 0">
-                      <div class="data-table-wrapper">
-                        <table class="data-table" style="font-size: var(--text-xs)">
-                          <thead>
-                            <tr>
-                              <th>ID</th>
-                              <th style="width: 40%">Vulnerability</th>
-                              <th>Severity</th>
-                              <th>Status</th>
-                              <th>Actions</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            ${repoIssues.map(issue => `
-                              <tr>
-                                <td class="text-muted">${issue.id}</td>
-                                <td class="table-cell-main">${issue.title}</td>
-                                <td>${severityBadge(issue.severity)}</td>
-                                <td>${statusBadge(issue.status)}</td>
-                                <td>
-                                  <button class="btn btn-primary btn-xs" data-nav="issue-detail" data-id="${issue.id}">View Details</button>
-                                </td>
-                              </tr>
-                            `).join('')}
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-                </div>`;
-              }).join('')}
+          <div class="accordion-body-inner" style="padding: var(--space-2) var(--space-5) var(--space-8)">
+            <div class="repo-name-list">
+              ${repos.map(repoName => renderRepoRow(repoName, app.name)).join('')}
             </div>
           </div>
         </div>
@@ -1767,76 +1977,78 @@ function renderSecurityApplications() {
 
 function renderSecurityAppDetail() {
   const app = mockData.applications.find(a => a.id === (state.params && state.params.id)) || mockData.applications[0];
-  const appIssues = mockData.issues.filter(i => i.app === app.name);
+  const repos = appRepoMap[app.name] || [];
 
   return `
-    <div class="back-link" data-nav="applications">${icons.chevronLeft} Back to Applications</div>
-    <div class="page-header">
-      <div class="page-header-row">
+    <div class="back-link" onclick="goBack()">${icons.chevronLeft} Back</div>
+    
+    <div class="hero-blueprint p-8 mb-8">
+      <div class="flex items-center justify-between">
         <div>
-          <h1>${app.name}</h1>
-          <p class="page-subtitle">${app.team} · ${app.language} · ${app.repos} repositories</p>
+          <div class="flex items-center gap-2 mb-2">
+            <span class="tag tag-sm" style="background:var(--primary-light); color:var(--primary)">Application Portfolio</span>
+          </div>
+          <h1 class="strategic-title gradient-text" style="font-size:var(--text-3xl)">${app.name}</h1>
+          <p class="text-xs text-muted mt-2">${app.team} · ${app.language} · ${repos.length} Repositories</p>
         </div>
-        ${severityBadge(app.status)}
+        <div class="flex gap-3">
+          <button class="btn btn-secondary">${icons.download} Export Report</button>
+          <button class="btn btn-primary">${icons.shield} Compliance Audit</button>
+        </div>
       </div>
     </div>
 
-    <div class="metrics-grid" style="grid-template-columns:repeat(5,1fr)">
-      <div class="metric-card"><div class="metric-label">Risk Score</div><div class="metric-value">${app.riskScore}</div></div>
-      <div class="metric-card"><div class="metric-label">Critical</div><div class="metric-value" style="color:var(--critical)">${app.critical}</div></div>
-      <div class="metric-card"><div class="metric-label">High</div><div class="metric-value" style="color:var(--high)">${app.high}</div></div>
-      <div class="metric-card"><div class="metric-label">Medium</div><div class="metric-value" style="color:var(--medium)">${app.medium}</div></div>
-      <div class="metric-card"><div class="metric-label">Low</div><div class="metric-value">${app.low}</div></div>
-    </div>
+    <div class="grid grid-cols-3 gap-6 mb-8">
+      <!-- Portfolio Health -->
+      <div class="card p-6 flex flex-col justify-between">
+        <div class="text-xs text-muted uppercase font-bold mb-3">Portfolio Health</div>
+        <div class="flex items-center gap-4 mb-4">
+          <div class="text-2xl font-bold uppercase" style="color:var(--${app.status})">${app.status}</div>
+          <div class="text-xs font-bold px-2 py-0.5 rounded" style="background:var(--gray-100)">${app.riskScore}/100 Risk</div>
+        </div>
+        <div class="flex flex-col gap-1 border-t pt-3">
+          <div class="flex justify-between text-xs"><span class="text-muted">Stability</span><span class="font-bold text-success">98.2%</span></div>
+          <div class="flex justify-between text-xs"><span class="text-muted">MTTR</span><span class="font-bold">4.2h</span></div>
+        </div>
+      </div>
 
-    <div class="two-col">
-      <div class="card">
-        <div class="card-header"><h3>Tech Stack & Info</h3></div>
-        <div class="card-body">
-          <div class="detail-meta-list">
-            <div class="detail-meta-item"><span class="meta-label">Language</span><span class="meta-value">${app.language}</span></div>
-            <div class="detail-meta-item"><span class="meta-label">Owner</span><div class="user-cell"><div class="avatar">${app.owner.split(' ').map(n=>n[0]).join('')}</div><span class="meta-value">${app.owner}</span></div></div>
-            <div class="detail-meta-item"><span class="meta-label">Repositories</span><span class="meta-value">${app.repos}</span></div>
-            <div class="detail-meta-item"><span class="meta-label">Last Scan</span><span class="meta-value">${app.lastScan}</span></div>
-            <div class="detail-meta-item"><span class="meta-label">Compliance</span><span class="meta-value">${app.compliance}%</span></div>
+      <!-- Compliance -->
+      <div class="card p-6 flex items-center gap-6">
+        ${makeGauge(app.compliance, 'Score', 80)}
+        <div>
+          <h3 class="text-sm font-semibold mb-1">Compliance</h3>
+          <p class="text-xs text-muted">Against SOC 2 & ISO 27001.</p>
+        </div>
+      </div>
+
+      <!-- Risk Exposure -->
+      <div class="card p-6">
+        <h4 class="text-xs uppercase text-muted font-bold mb-4">Risk Exposure</h4>
+        <div class="space-y-3">
+          <div class="flex items-center justify-between">
+            <span class="text-xs">Critical</span>
+            <b class="text-sm" style="color:var(--critical)">${app.critical}</b>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="text-xs">High</span>
+            <b class="text-sm" style="color:var(--high)">${app.high}</b>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="text-xs text-muted">Total Issues</span>
+            <b class="text-xs font-bold">${app.critical + app.high}</b>
           </div>
         </div>
       </div>
-      <div class="card">
-        <div class="card-header"><h3>Scan History</h3></div>
-        <div class="card-body">
-          <div class="timeline">
-            <div class="timeline-item"><div class="timeline-dot primary"></div><div class="timeline-content"><div class="timeline-title">SAST scan completed — 3 new findings</div><div class="timeline-time">${app.lastScan}</div></div></div>
-            <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><div class="timeline-title">SCA scan completed — 1 CVE detected</div><div class="timeline-time">1d ago</div></div></div>
-            <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><div class="timeline-title">DAST scan completed — 0 new findings</div><div class="timeline-time">3d ago</div></div></div>
-          </div>
-        </div>
-      </div>
     </div>
 
-    <div class="card mt-6">
-      <div class="card-header">
-        <h3>Issues in ${app.name}</h3>
-        <span class="text-sm text-muted">${appIssues.length} issues</span>
-      </div>
-      <div class="data-table-wrapper">
-        <table class="data-table">
-          <thead><tr><th>ID</th><th>Issue</th><th>Severity</th><th>Status</th><th>File</th><th>Assignee</th></tr></thead>
-          <tbody>
-            ${appIssues.map(issue => `
-              <tr data-nav="issue-detail" data-id="${issue.id}">
-                <td class="text-sm text-muted">${issue.id}</td>
-                <td class="table-cell-main">${issue.title}</td>
-                <td>${severityBadge(issue.severity)}</td>
-                <td>${statusBadge(issue.status)}</td>
-                <td class="text-sm text-muted">${issue.file.split('/').pop()}</td>
-                <td>${issue.assignee ? `<div class="user-cell"><div class="avatar">${issue.assignee.split(' ').map(n=>n[0]).join('')}</div><span class="text-sm">${issue.assignee}</span></div>` : '<span class="text-muted text-sm">—</span>'}</td>
-              </tr>
-            `).join('')}
-            ${appIssues.length === 0 ? '<tr><td colspan="6" class="text-sm text-muted" style="text-align:center;padding:var(--space-8)">No issues found for this application</td></tr>' : ''}
-          </tbody>
-        </table>
-      </div>
+    <div class="section-header flex items-center justify-between mb-4">
+      <h2 style="font-size:var(--text-lg); font-weight:700">Repositories in ${app.name}</h2>
+      <div class="text-xs text-muted">${repos.length} repos found</div>
+    </div>
+
+    <div class="repo-list">
+      ${repos.map(repoName => renderRepoRow(repoName, app.name)).join('')}
+      ${repos.length === 0 ? `<div class="card p-8 text-center text-muted">No repositories linked to this application.</div>` : ''}
     </div>
   `;
 }
@@ -1902,7 +2114,7 @@ function renderSecurityPRDetail() {
   const relatedIssues = mockData.issues.filter(i => i.repo === pr.repo).slice(0, 3);
 
   return `
-    <div class="back-link" data-nav="pull-requests">${icons.chevronLeft} Back to Pull Requests</div>
+    <div class="back-link" onclick="goBack()">${icons.chevronLeft} Back</div>
     <div class="page-header">
       <div class="page-header-row">
         <div>
@@ -2193,98 +2405,81 @@ function renderDevRepositories() {
       <div class="page-header-row">
         <div>
           <h1>Repositories</h1>
-          <p class="page-subtitle">Your assigned repositories and their security health</p>
+          <p class="page-subtitle">Manage security health and active code changes for your assigned services.</p>
+        </div>
+        <div class="flex gap-2">
+          <button class="btn btn-secondary">${icons.filter} Filters</button>
         </div>
       </div>
-    </div>
-
-    <div class="framework-grid" style="grid-template-columns:repeat(auto-fill,minmax(340px,1fr))">
-      ${mockData.repositories.map(repo => `
-        <div class="card clickable" data-nav="repository-detail" data-id="${repo.id}" style="cursor:pointer">
-          <div class="card-body">
-            <div class="flex items-center justify-between mb-4">
-              <div class="flex items-center gap-2">
-                <span style="color:var(--gray-400)">${icons.gitRepo}</span>
-                <span style="font-weight:600;font-size:var(--text-lg)">${repo.name}</span>
-              </div>
-              ${severityBadge(repo.health)}
-            </div>
-            <div class="flex items-center gap-4 mb-4">
-              <span class="tag">${repo.language}</span>
-              <span class="text-xs text-muted">${icons.clock} ${repo.lastScan}</span>
-            </div>
-            <div class="detail-meta-list">
-              <div class="detail-meta-item">
-                <span class="meta-label">Open Issues</span>
-                <span class="meta-value" style="${repo.openIssues > 5 ? 'color:var(--critical)' : ''}">${repo.openIssues}</span>
-              </div>
-              <div class="detail-meta-item">
-                <span class="meta-label">Coverage</span>
-                <div class="flex items-center gap-2">
-                  <div class="progress-bar" style="width:50px"><div class="progress-fill ${repo.coverage >= 80 ? 'success' : repo.coverage >= 60 ? 'warning' : 'critical'}" style="width:${repo.coverage}%"></div></div>
-                  <span class="meta-value">${repo.coverage}%</span>
-                </div>
-              </div>
-              <div class="detail-meta-item">
-                <span class="meta-label">Default Branch</span>
-                <span class="meta-value">${repo.branch}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      `).join('')}
-    </div>
-  `;
-}
-
-function renderDevRepoDetail() {
-  const repo = mockData.repositories.find(r => r.id === (state.params && state.params.id)) || mockData.repositories[0];
-  const repoIssues = mockData.issues.filter(i => i.repo === repo.name);
-
-  return `
-    <div class="back-link" data-nav="repositories">${icons.chevronLeft} Back to Repositories</div>
-    <div class="page-header">
-      <div class="page-header-row">
-        <div>
-          <div class="flex items-center gap-2">
-            <span style="color:var(--gray-400)">${icons.gitRepo}</span>
-            <h1>${repo.name}</h1>
-          </div>
-          <p class="page-subtitle">${repo.language} · ${repo.branch} · Last scan ${repo.lastScan}</p>
-        </div>
-        <div class="flex gap-2 items-center">
-          ${severityBadge(repo.health)}
-          <button class="btn btn-primary">${icons.activity} Run Scan</button>
-        </div>
-      </div>
-    </div>
-
-    <div class="metrics-grid" style="grid-template-columns:repeat(4,1fr)">
-      <div class="metric-card"><div class="metric-label">Open Issues</div><div class="metric-value">${repo.openIssues}</div></div>
-      <div class="metric-card"><div class="metric-label">Coverage</div><div class="metric-value">${repo.coverage}%</div></div>
-      <div class="metric-card"><div class="metric-label">Last Scan</div><div class="metric-value" style="font-size:var(--text-xl)">${repo.lastScan}</div></div>
-      <div class="metric-card"><div class="metric-label">Branch</div><div class="metric-value" style="font-size:var(--text-xl)">${repo.branch}</div></div>
     </div>
 
     <div class="card">
-      <div class="card-header">
-        <h3>Issues in this Repository</h3>
-        <span class="text-sm text-muted">${repoIssues.length} issues</span>
-      </div>
       <div class="data-table-wrapper">
         <table class="data-table">
-          <thead><tr><th>ID</th><th>Issue</th><th>Severity</th><th>File</th><th>Status</th></tr></thead>
+          <thead>
+            <tr>
+              <th>Repository</th>
+              <th>Branch</th>
+              <th>Health</th>
+              <th>Issues</th>
+              <th>Security Score</th>
+              <th>Last Committed</th>
+              <th>Last Scanned</th>
+              <th></th>
+            </tr>
+          </thead>
           <tbody>
-            ${repoIssues.map(i => `
-              <tr data-nav="issue-detail" data-id="${i.id}">
-                <td class="text-sm text-muted">${i.id}</td>
-                <td class="table-cell-main">${i.title}</td>
-                <td>${severityBadge(i.severity)}</td>
-                <td class="text-sm text-muted">${i.file.split('/').pop()}:${i.line}</td>
-                <td>${statusBadge(i.status)}</td>
-              </tr>
-            `).join('')}
-            ${repoIssues.length === 0 ? '<tr><td colspan="5" class="text-sm text-muted" style="text-align:center;padding:var(--space-8)">No issues in this repository</td></tr>' : ''}
+            ${mockData.repositories.map(repo => {
+              const repoIssues = mockData.issues.filter(i => i.repo === repo.name).length;
+              const healthColor = repo.health === 'critical' ? 'var(--critical)' : repo.health === 'high' ? 'var(--high)' : repo.health === 'medium' ? 'var(--warning)' : 'var(--success)';
+              const coverageColor = repo.coverage > 80 ? 'var(--success)' : repo.coverage > 60 ? 'var(--warning)' : 'var(--critical)';
+              return `
+              <tr class="clickable" data-nav="repository-detail" data-repo="${repo.name}" style="cursor:pointer">
+                <td>
+                  <div style="display:flex; align-items:center; gap:12px">
+                    <div style="width:36px; height:36px; border-radius:10px; background:var(--primary-light); color:var(--primary); display:flex; align-items:center; justify-content:center; flex-shrink:0">
+                      ${icons.gitRepo}
+                    </div>
+                    <div>
+                      <div style="font-weight:700; color:var(--gray-900); font-size:13px">${repo.name}</div>
+                      <div style="font-size:11px; color:var(--gray-400); margin-top:2px">${repo.language}</div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <span style="font-size:11px; font-weight:600; color:var(--gray-600); padding:3px 10px; background:var(--gray-100); border-radius:6px; display:inline-flex; align-items:center; gap:4px">
+                    ${icons.layers} ${repo.branch}
+                  </span>
+                </td>
+                <td>
+                  <div style="display:flex; align-items:center; gap:6px">
+                    <span style="width:8px; height:8px; border-radius:50%; background:${healthColor}; display:inline-block; flex-shrink:0"></span>
+                    <span style="font-size:11px; font-weight:700; color:${healthColor}; text-transform:uppercase; letter-spacing:0.3px">${repo.health}</span>
+                  </div>
+                </td>
+                <td>
+                  <span style="font-size:12px; font-weight:700; color:${repoIssues > 5 ? 'var(--critical)' : repoIssues > 0 ? 'var(--gray-700)' : 'var(--success)'}">${repoIssues}</span>
+                  <span style="font-size:11px; color:var(--gray-400); margin-left:2px">issues</span>
+                </td>
+                <td>
+                  <div style="display:flex; align-items:center; gap:8px; min-width:100px">
+                    <div style="flex:1; height:6px; background:var(--gray-100); border-radius:3px; overflow:hidden">
+                      <div style="width:${repo.coverage}%; height:100%; background:${coverageColor}; border-radius:3px; transition:width 0.4s ease"></div>
+                    </div>
+                    <span style="font-size:11px; font-weight:700; color:var(--gray-700); min-width:28px; text-align:right">${repo.coverage}%</span>
+                  </div>
+                </td>
+                <td>
+                  <span style="font-size:12px; color:var(--gray-600); font-weight:500">${repo.lastCommit}</span>
+                </td>
+                <td>
+                  <span style="font-size:12px; color:var(--gray-400)">${repo.lastScan}</span>
+                </td>
+                <td>
+                  <span style="color:var(--gray-300)">${icons.chevronRight}</span>
+                </td>
+              </tr>`;
+            }).join('')}
           </tbody>
         </table>
       </div>
@@ -2349,7 +2544,7 @@ function renderDevIssueDetail() {
   const issue = mockData.issues.find(i => i.id === (state.params && state.params.id)) || mockData.issues[2];
 
   return `
-    <div class="back-link" data-nav="issues">${icons.chevronLeft} Back to My Issues</div>
+    <div class="back-link" onclick="goBack()">${icons.chevronLeft} Back</div>
     <div class="page-header">
       <div class="page-header-row">
         <div>
@@ -2488,7 +2683,7 @@ function renderDevPRDetail() {
   const pr = mockData.pullRequests.find(p => p.id === (state.params && state.params.id)) || mockData.pullRequests[2];
 
   return `
-    <div class="back-link" data-nav="pull-requests">${icons.chevronLeft} Back to My Pull Requests</div>
+    <div class="back-link" onclick="goBack()">${icons.chevronLeft} Back</div>
     <div class="page-header">
       <div class="page-header-row">
         <div>
@@ -2690,107 +2885,103 @@ function getFixSnippet(issue) {
   return fixes[issue.cwe] || `<div class="code-line"><span class="code-line-num">${issue.line}</span><span class="code-comment">// Apply recommended fix for ${issue.cwe}</span></div>`;
 }
 
-// ========== EVENT BINDING ==========
-function bindEvents() {
-  // Sidebar navigation
-  document.querySelectorAll('[data-nav]').forEach(el => {
-    el.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const page = el.getAttribute('data-nav');
-      const id = el.getAttribute('data-id');
-      // Handle table row clicks (look up to find the tr with data-nav)
-      navigateTo(page, id ? { id } : {});
-    });
-  });
-
-  // Also handle table rows via event delegation
-  document.querySelectorAll('tr[data-nav]').forEach(el => {
-    el.addEventListener('click', (e) => {
-      const page = el.getAttribute('data-nav');
-      const id = el.getAttribute('data-id');
-      navigateTo(page, id ? { id } : {});
-    });
-  });
-
-  // Card clicks (for repositories grid)
-  document.querySelectorAll('.card[data-nav]').forEach(el => {
-    el.addEventListener('click', () => {
-      const page = el.getAttribute('data-nav');
-      const id = el.getAttribute('data-id');
-      navigateTo(page, id ? { id } : {});
-    });
-  });
-
-  // Role switcher
-  const roleBtn = document.getElementById('role-switcher-btn');
-  if (roleBtn) {
-    roleBtn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      state.roleDropdownOpen = !state.roleDropdownOpen;
-      render();
-    });
-  }
-
-  // Role dropdown items
-  document.querySelectorAll('[data-role]').forEach(el => {
-    el.addEventListener('click', (e) => {
-      e.stopPropagation();
-      setRole(el.getAttribute('data-role'));
-    });
-  });
-
-  // Close dropdown on click outside
-  document.addEventListener('click', () => {
-    if (state.roleDropdownOpen) {
-      state.roleDropdownOpen = false;
-      const dropdown = document.getElementById('role-dropdown');
-      const btn = document.getElementById('role-switcher-btn');
-      if (dropdown) dropdown.classList.remove('open');
-      if (btn) btn.classList.remove('open');
+// ========== EVENT BINDING (GLOBAL DELEGATION) ==========
+function initEventListeners() {
+  // Handle select changes (like branch selector)
+  document.addEventListener('change', (e) => {
+    if (e.target.id === 'repo-branch-select') {
+      const selectedBranch = e.target.value;
+      navigateTo('repository-detail', { ...state.params, selectedBranch }, true);
     }
   });
 
-  // Checkbox toggle
-  document.querySelectorAll('.checkbox').forEach(el => {
-    el.addEventListener('click', (e) => {
+  document.addEventListener('click', (e) => {
+    // Role switcher toggle
+    const roleBtn = e.target.closest('#role-switcher-btn');
+    if (roleBtn) {
       e.stopPropagation();
-      el.classList.toggle('checked');
-      if (el.classList.contains('checked')) {
-        el.innerHTML = icons.check;
-      } else {
-        el.innerHTML = '';
-      }
-    });
-  });
+      state.roleDropdownOpen = !state.roleDropdownOpen;
+      render();
+      return;
+    }
 
-  // Filter chips toggle
-  document.querySelectorAll('.filter-chip').forEach(el => {
-    el.addEventListener('click', () => {
-      // Toggle active state (simple visual toggle)
-      el.classList.toggle('active');
-    });
-  });
-
-  // Tabs (simple visual toggle)
-  document.querySelectorAll('.tabs').forEach(tabGroup => {
-    tabGroup.querySelectorAll('.tab').forEach(tab => {
-      tab.addEventListener('click', () => {
-        tabGroup.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-      });
-    });
-  });
-
-  // Accordion toggle
-  document.querySelectorAll('[data-accordion-toggle]').forEach(el => {
-    el.addEventListener('click', (e) => {
+    // Role dropdown selection
+    const roleItem = e.target.closest('[data-role]');
+    if (roleItem) {
       e.stopPropagation();
-      const key = el.getAttribute('data-accordion-toggle');
+      setRole(roleItem.getAttribute('data-role'));
+      return;
+    }
+
+    // Sidebar & General Navigation
+    const navItem = e.target.closest('[data-nav]');
+    if (navItem) {
+      e.stopPropagation();
+      const page = navItem.getAttribute('data-nav');
+      const id = navItem.getAttribute('data-id');
+      const repoName = navItem.getAttribute('data-repo');
+      navigateTo(page, { id, repoName });
+      return;
+    }
+
+    // Repo Detail Tabs
+    const repoTab = e.target.closest('[data-repo-tab]');
+    if (repoTab) {
+      e.stopPropagation();
+      const activeTab = repoTab.getAttribute('data-repo-tab');
+      navigateTo('repository-detail', { ...state.params, activeTab }, true);
+      return;
+    }
+
+    // Accordion Toggle
+    const accordionToggle = e.target.closest('[data-accordion-toggle]');
+    if (accordionToggle) {
+      e.stopPropagation();
+      const key = accordionToggle.getAttribute('data-accordion-toggle');
       const item = document.querySelector(`[data-accordion="${key}"]`);
       if (item) {
         item.classList.toggle('open');
       }
-    });
+      return;
+    }
+
+    // Checkbox toggle
+    const checkbox = e.target.closest('.checkbox');
+    if (checkbox) {
+      e.stopPropagation();
+      checkbox.classList.toggle('checked');
+      checkbox.innerHTML = checkbox.classList.contains('checked') ? icons.check : '';
+      return;
+    }
+
+    // Filter Chips & Tabs (simple visual toggle)
+    const filterChip = e.target.closest('.filter-chip');
+    if (filterChip) {
+      filterChip.classList.toggle('active');
+      return;
+    }
+
+    const tab = e.target.closest('.tab');
+    if (tab) {
+      const tabGroup = tab.closest('.tabs');
+      if (tabGroup) {
+        tabGroup.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+      }
+      return;
+    }
+
+    // Close role dropdown on click outside
+    if (state.roleDropdownOpen) {
+      state.roleDropdownOpen = false;
+      render();
+    }
+  });
+
+  // Keep static listeners like window resize or hash change here
+  window.addEventListener('popstate', () => {
+    // Simple back button support
+    render();
   });
 }
 
@@ -2799,5 +2990,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // Set default page based on role
   const defaults = { ciso: 'dashboard', security: 'dashboard', developer: 'dashboard' };
   state.currentPage = defaults[state.role] || 'dashboard';
+  initEventListeners();
   render();
 });
